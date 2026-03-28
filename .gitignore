@@ -1,0 +1,44 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Database
+*.sqlite
+*.db
+
+# Alembic (keep migrations, ignore cache)
+backend/alembic/__pycache__/
+
+# Kubernetes / Helm
+*.kubeconfig
+postgres-values.yaml
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

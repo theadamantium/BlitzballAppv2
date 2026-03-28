@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: blitzball-postgres
+    environment:
+      POSTGRES_DB: blitzball
+      POSTGRES_USER: blitzball
+      POSTGRES_PASSWORD: blitzball_dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

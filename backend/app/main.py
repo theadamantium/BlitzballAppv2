@@ -4,9 +4,14 @@ from app.api.players import router as players_router
 
 app = FastAPI(title="Blitzball API")
 
+# Add the CORS middleware to allow your frontend to talk to the backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    # We include both the IP and localhost to be safe
+    allow_origins=[
+        "http://192.168.117.102:5173",
+        "http://localhost:5173"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

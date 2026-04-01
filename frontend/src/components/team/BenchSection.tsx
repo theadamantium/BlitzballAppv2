@@ -6,9 +6,11 @@ import BenchCard from './BenchCard';
 export default function BenchSection({
   players,
   onRemove,
+  onAssign,
 }: {
   players: PlayerSummary[];
   onRemove: (playerId: number) => void;
+  onAssign: (player: PlayerSummary) => void;
 }) {
   const { isOver, setNodeRef } = useDroppable({
     id: 'bench',
@@ -36,6 +38,7 @@ export default function BenchSection({
               key={player.id}
               player={player}
               onRemove={() => onRemove(player.id)}
+              onAssign={() => onAssign(player)}
             />
           ))}
         </div>

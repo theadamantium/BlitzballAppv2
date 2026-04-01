@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import type { DragEndEvent } from '@dnd-kit/core';
 import { DndContext } from '@dnd-kit/core';
 import PageHeader from '../components/common/PageHeader';
@@ -12,9 +12,12 @@ import { useRoster } from '../hooks/useRoster';
 import { getPlayerIdFromDragId, getPositionFromDropId, isBenchDropId } from '../utils/dnd';
 import type { PositionKey } from '../types/team';
 
+const Pitch = PitchSection as unknown as any;
+
 export default function TeamBuilderPage() {
   const { players, loading, error } = usePlayers();
   const roster = useRoster();
+  const [activePosition, setActivePosition] = useState<PositionKey | null>(null);
   const playerMap = useMemo(() => new Map(players.map((p) => [p.id, p])),
     [players]);
   const benchPlayers = roster.benchPlayerIds.map((id) =>
@@ -64,16 +67,25 @@ your lineup."
       {!loading && !error && roster.state.roster.length > 0 ? (
         <DndContext onDragEnd={handleDragEnd}>
         <div style={{ display: 'grid', gap: '1rem' }}>
-          <PitchSection
+          <Pitch
             playerMap={playerMap}
             assignments={roster.state.assignments}
             playerLevels={roster.state.playerLevels}
             onClearSlot={(position: PositionKey) => roster.assignPlayer(position, null)}
             onLevelChange={roster.setPlayerLevel}
+            onAssign={(pos: PositionKey) => setActivePosition(pos)}
           />
           <BenchSection
             players={benchPlayers as any}
             onRemove={roster.removeFromRoster}
+            onAssign={(player) => {
+              if (activePosition) {
+                roster.assignPlayer(activePosition, player.id);
+                setActivePosition(null);
+              } else {
+                alert("Please click an 'Assign' slot on the pitch first!");
+            }
+            }}
           />
           <ScoutingReport
             players={players}

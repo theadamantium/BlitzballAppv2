@@ -1,4 +1,6 @@
 import { useMemo } from 'react';
+import type { DragEndEvent } from '@dnd-kit/core';
+import { DndContext } from '@dnd-kit/core';
 import PageHeader from '../components/common/PageHeader';
 import EmptyState from '../components/common/EmptyState';
 import TeamBuilderControls from '../components/team/TeamBuilderControls';
@@ -7,7 +9,7 @@ import BenchSection from '../components/team/BenchSection';
 import ScoutingReport from '../components/team/ScoutingReport';
 import { usePlayers } from '../hooks/usePlayers';
 import { useRoster } from '../hooks/useRoster';
-import { POSITIONS } from '../utils/positions';
+import { getPlayerIdFromDragId, getPositionFromDropId, isBenchDropId } from '../utils/dnd';
 import type { PositionKey } from '../types/team';
 
 export default function TeamBuilderPage() {
@@ -17,6 +19,29 @@ export default function TeamBuilderPage() {
     [players]);
   const benchPlayers = roster.benchPlayerIds.map((id) =>
     playerMap.get(id)).filter(Boolean);
+  
+  function handleDragEnd(event: DragEndEvent) {
+    const activeId = String(event.active.id);
+    const overId = event.over ? String(event.over.id) : null;
+    if (!overId) return;
+    
+    const playerId = getPlayerIdFromDragId(activeId);
+    if (!playerId) return;
+    
+    const targetPosition = getPositionFromDropId(overId);
+    if (targetPosition) {
+        roster.assignPlayer(targetPosition, playerId);
+        return;
+    }
+    
+    if (isBenchDropId(overId)) {
+        const currentPosition = roster.getPlayerPosition(playerId);
+        if (currentPosition) {
+            roster.assignPlayer(currentPosition, null);
+            }
+        }
+    }
+  
   return (
     <div>
       <PageHeader
@@ -25,8 +50,10 @@ export default function TeamBuilderPage() {
 pool, and compare better fits with the scouting report."
       />
       <TeamBuilderControls onClear={roster.clearRoster} />
+
       {loading ? <div>Loading team builder...</div> : null}
       {error ? <div>{error}</div> : null}
+
       {!loading && !error && roster.state.roster.length === 0 ? (
         <EmptyState
           title="Your roster is empty"
@@ -35,6 +62,7 @@ your lineup."
         />
       ) : null}
       {!loading && !error && roster.state.roster.length > 0 ? (
+        <DndContext onDragEnd={handleDragEnd}>
         <div style={{ display: 'grid', gap: '1rem' }}>
           <PitchSection
             playerMap={playerMap}
@@ -56,6 +84,7 @@ your lineup."
             addToRoster={roster.addToRoster}
           />
         </div>
+        </DndContext>
       ) : null}
     </div>
   );

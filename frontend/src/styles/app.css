@@ -1,0 +1,110 @@
+.app-shell {
+  min-height: 100vh;
+}
+
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background: rgba(3, 19, 33, 0.72);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.top-nav__brand {
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.top-nav__links {
+  display: flex;
+  gap: 1rem;
+}
+
+.top-nav__link {
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  color: var(--muted);
+}
+
+.top-nav__link--active {
+  background: rgba(72, 214, 255, 0.14);
+}
+
+.page {
+  padding: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(12px);
+}
+.controls-row {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  margin-bottom: 1.25rem;
+}
+
+.card-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+.stat-item {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 0.55rem 0.7rem;
+}
+.empty-state {
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--muted);
+}
+.grade-badge {
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.grade-badge--green {
+  background: rgba(44, 212, 170, 0.18);
+  color: #c6fff0;
+}
+.grade-badge--blue {
+  background: rgba(81, 168, 255, 0.18);
+  color: #d5edff;
+}
+.grade-badge--red {
+  background: rgba(255, 111, 125, 0.18);
+  color: #ffdbe0;
+}
+
+@media (max-width: 768px) {
+  .top-nav {
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: flex-start;
+  }
+
+  .top-nav__links {
+    flex-wrap: wrap;
+  }
+
+  .page {
+    padding: 1rem;
+  }
+}

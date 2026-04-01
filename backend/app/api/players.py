@@ -3,6 +3,7 @@ from sqlalchemy.orm import Session, selectinload
 from app.db import get_db
 from app.models import Player
 from app.services.interpolation import estimate_stats
+from app.services.scoring import weighted_score, percentile_rank, grade_from_percentile
 
 router = APIRouter(prefix="/api/players", tags=["players"])
 
@@ -44,8 +45,6 @@ def get_player_stats(player_id: int, level: int, db: Session = Depends(get_db)):
         "name": player.name,
         "stats": stats
     }
-
-from app.services.scoring import weighted_score, percentile_rank, grade_from_percentile
 
 @router.get("/{player_id}/role-fit")
 def get_player_role_fit(player_id: int, level: int, role: str, db: Session = Depends(get_db)):

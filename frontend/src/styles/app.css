@@ -8,6 +8,7 @@
   z-index: 20;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem 1.5rem;
   background: rgba(3, 19, 33, 0.72);
   backdrop-filter: blur(10px);
@@ -32,6 +33,7 @@
 
 .top-nav__link--active {
   background: rgba(72, 214, 255, 0.14);
+  color: var(--text);
 }
 
 .page {
@@ -39,6 +41,7 @@
   max-width: 1400px;
   margin: 0 auto;
 }
+
 .panel {
   background: var(--panel);
   border: 1px solid var(--border);
@@ -46,6 +49,7 @@
   box-shadow: var(--shadow);
   backdrop-filter: blur(12px);
 }
+
 .controls-row {
   display: grid;
   gap: 1rem;
@@ -58,21 +62,25 @@
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
+
 .stat-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.5rem;
 }
+
 .stat-item {
   background: rgba(255, 255, 255, 0.08);
   border-radius: 12px;
   padding: 0.55rem 0.7rem;
 }
+
 .empty-state {
   padding: 1.5rem;
   text-align: center;
   color: var(--muted);
 }
+
 .grade-badge {
   border-radius: 999px;
   padding: 0.35rem 0.7rem;
@@ -80,31 +88,159 @@
   font-size: 0.9rem;
   font-weight: 700;
 }
+
 .grade-badge--green {
   background: rgba(44, 212, 170, 0.18);
   color: #c6fff0;
 }
+
 .grade-badge--blue {
   background: rgba(81, 168, 255, 0.18);
   color: #d5edff;
 }
+
 .grade-badge--red {
   background: rgba(255, 111, 125, 0.18);
   color: #ffdbe0;
 }
 
-@media (max-width: 768px) {
-  .top-nav {
-    flex-direction: column;
-    gap: 0.75rem;
-    align-items: flex-start;
-  }
+/* Team Builder Layout */
+.team-builder-layout {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 2fr 1fr;
+  align-items: start;
+}
 
-  .top-nav__links {
-    flex-wrap: wrap;
-  }
+.team-builder-sidebar {
+  display: grid;
+  gap: 1rem;
+}
 
-  .page {
-    padding: 1rem;
+/* Sphere Pool Container */
+.sphere-pool-container {
+  position: relative;
+  width: 100%;
+  min-height: 800px;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+/* Central Sphere */
+.sphere-pool-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.sphere-visual {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, rgba(72, 214, 255, 0.4), rgba(30, 160, 232, 0.2), rgba(5, 35, 61, 0.3));
+  border: 4px solid var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 
+    0 0 50px rgba(72, 214, 255, 0.5),
+    0 0 100px rgba(72, 214, 255, 0.3),
+    inset 0 0 40px rgba(72, 214, 255, 0.3);
+  animation: sphere-pulse 4s ease-in-out infinite;
+}
+
+.sphere-inner {
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: var(--accent);
+  text-align: center;
+  text-shadow: 
+    0 0 15px rgba(72, 214, 255, 1),
+    0 0 30px rgba(72, 214, 255, 0.7);
+  letter-spacing: 0.1em;
+}
+
+@keyframes sphere-pulse {
+  0%, 100% {
+    box-shadow: 
+      0 0 50px rgba(72, 214, 255, 0.5),
+      0 0 100px rgba(72, 214, 255, 0.3),
+      inset 0 0 40px rgba(72, 214, 255, 0.3);
+    transform: scale(1);
   }
+  50% {
+    box-shadow: 
+      0 0 70px rgba(72, 214, 255, 0.7),
+      0 0 120px rgba(72, 214, 255, 0.4),
+      inset 0 0 50px rgba(72, 214, 255, 0.4);
+    transform: scale(1.05);
+  }
+}
+
+/* Position Slots - Arranged in Circle Around Sphere */
+.position-slot {
+  position: absolute;
+  width: 300px;
+}
+
+/* Goalie - Bottom Center */
+.position-goalie {
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+/* Left Defense - Bottom Left */
+.position-left-defense {
+  left: 5%;
+  top: 60%;
+}
+
+/* Right Defense - Bottom Right */
+.position-right-defense {
+  right: 5%;
+  top: 60%;
+}
+
+/* Midfield - Top Center */
+.position-midfield {
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%);
+}
+
+/* Left Forward - Top Left */
+.position-left-forward {
+  left: 8%;
+  top: 25%;
+}
+
+/* Right Forward - Top Right */
+.position-right-forward {
+  right: 8%;
+  top: 25%;
+}
+
+/* Form Controls */
+select,
+input,
+button {
+  min-height: 40px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+  padding: 0.55rem 0.8rem;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+h1, h2, h3 {
+  word-break: break-word;
 }

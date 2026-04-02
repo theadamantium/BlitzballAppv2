@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import EmptyState from '../common/EmptyState';
 import type { PlayerSummary, RoleFitResponse } from '../../types/api';
-import type { PositionConfig, PositionKey } from '../../types/team';
+import type { PositionKey } from '../../types/team';
 import { POSITIONS } from '../../utils/positions';
 import { fetchPlayerRoleFit } from '../../api/players';
 import GradeBadge from '../common/GradeBadge';

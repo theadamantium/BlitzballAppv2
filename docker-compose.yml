@@ -1,7 +1,6 @@
 services:
   postgres:
     image: postgres:16
-    container_name: blitzball-postgres
     environment:
       POSTGRES_DB: blitzball
       POSTGRES_USER: blitzball
@@ -10,6 +9,24 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./backend
+    environment:
+      DATABASE_URL: "postgresql+psycopg://blitzball:blitzball_dev_password@postgres:5432/blitzball"
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+    
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
 
 volumes:
   postgres_data:

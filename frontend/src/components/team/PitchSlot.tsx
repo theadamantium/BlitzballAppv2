@@ -7,7 +7,6 @@ export default function PitchSlot({
   position,
   player,
   level,
-  onAssign,
   onClear,
   onLevelChange,
 }: {

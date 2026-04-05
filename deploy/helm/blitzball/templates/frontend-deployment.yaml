@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blitzball-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: blitzball-frontend
+  template:
+    metadata:
+      labels:
+        app: blitzball-frontend
+    spec:
+      containers:
+      - name: frontend
+        image: "{{ .Values.frontend.image }}:{{ .Values.frontend.tag }}"
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 80

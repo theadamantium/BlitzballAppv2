@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blitzball-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: blitzball-backend
+  template:
+    metadata:
+      labels:
+        app: blitzball-backend
+    spec:
+      containers:
+      - name: backend
+        image: "{{ .Values.backend.image }}:{{ .Values.backend.tag }}"
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
+        env:
+        - name: APP_ENV
+          value: "{{ .Values.backend.env.APP_ENV }}"
+        - name: DATABASE_URL
+          value: "{{ .Values.backend.env.DATABASE_URL }}"
+        - name: OTEL_EXPORTER_OTLP_ENDPOINT
+          value: "{{ .Values.backend.env.OTEL_EXPORTER_OTLP_ENDPOINT }}"
+        readinessProbe:
+          httpGet:
+            path: /readyz
+            port: 8000
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 8000

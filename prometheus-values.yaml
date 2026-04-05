@@ -1,0 +1,5 @@
+prometheus:
+  prometheusSpec:
+    serviceMonitorSelectorNilUsesHelmValues: false
+grafana:
+  enabled: false  # We're installing Grafana separately

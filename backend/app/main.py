@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.players import router as players_router
 from app.api.techniques import router as techniques_router
+from app.db import engine
+from app.telemetry import setup_telemetry
 
 app = FastAPI(title="Blitzball API")
 
@@ -22,6 +24,7 @@ app.add_middleware(
 
 app.include_router(players_router)
 app.include_router(techniques_router)
+setup_telemetry(app, engine)
 
 @app.get("/healthz")
 def healthz():

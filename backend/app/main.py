@@ -12,6 +12,7 @@ app.add_middleware(
     CORSMiddleware,
     # We include both the IP and localhost to be safe
     allow_origins=[
+        "http://192.168.117.102",       # Ingress (port 80)
         "http://192.168.117.102:8080",  # The port for my Docker frontend
         "http://localhost:8080",        # To cover local access
         "http://192.168.117.102:5173",

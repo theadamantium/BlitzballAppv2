@@ -189,7 +189,7 @@
         {"level": 70, "HP": 4360, "speed": 61, "endurance": 45, "attack": 17, "pass": 20, "block": 12, "shot": 40, "catch": 15},
         {"level": 80, "HP": 5210, "speed": 61, "endurance": 45, "attack": 19, "pass": 22, "block": 13, "shot": 41, "catch": 17},
         {"level": 90, "HP": 6120, "speed": 61, "endurance": 45, "attack": 21, "pass": 23, "block": 15, "shot": 42, "catch": 19},
-        {"level": 99, "HP": 6990, "speed": 61, "endurance": 45, "attack": 23, "pass": 24, "block": 16, "shot": 43, "catch": 20}
+        {"level": 99, "HP": 6990, "speed": 61, "endurance": 44, "attack": 23, "pass": 24, "block": 16, "shot": 43, "catch": 20}
       ]
     },
     {
@@ -213,7 +213,7 @@
         {"level": 70, "HP": 4690, "speed": 62, "endurance": 41, "attack": 28, "pass": 43, "block": 37, "shot": 31, "catch": 16},
         {"level": 80, "HP": 5590, "speed": 62, "endurance": 43, "attack": 28, "pass": 44, "block": 38, "shot": 32, "catch": 18},
         {"level": 90, "HP": 6550, "speed": 62, "endurance": 45, "attack": 28, "pass": 44, "block": 37, "shot": 33, "catch": 20},
-        {"level": 99, "HP": 7485, "speed": 62, "endurance": 46, "attack": 28, "pass": 44, "block": 36, "shot": 33, "catch": 21}
+        {"level": 99, "HP": 7465, "speed": 62, "endurance": 46, "attack": 28, "pass": 44, "block": 36, "shot": 33, "catch": 21}
       ]
     },
     {
@@ -256,12 +256,12 @@
         {"level": 35, "HP": 2127, "speed": 60, "endurance": 13, "attack": 27, "pass": 27, "block": 21, "shot": 5, "catch": 8},
         {"level": 40, "HP": 2506, "speed": 60, "endurance": 14, "attack": 29, "pass": 29, "block": 23, "shot": 6, "catch": 9},
         {"level": 45, "HP": 2905, "speed": 60, "endurance": 16, "attack": 31, "pass": 31, "block": 24, "shot": 7, "catch": 10},
-        {"level": 50, "HP": 3225, "speed": 60, "endurance": 18, "attack": 33, "pass": 33, "block": 25, "shot": 8, "catch": 11},
+        {"level": 50, "HP": 3225, "speed": 60, "endurance": 18, "attack": 33, "pass": 32, "block": 25, "shot": 8, "catch": 11},
         {"level": 60, "HP": 4226, "speed": 60, "endurance": 21, "attack": 35, "pass": 35, "block": 27, "shot": 10, "catch": 13},
-        {"level": 70, "HP": 5209, "speed": 60, "endurance": 24, "attack": 37, "pass": 37, "block": 28, "shot": 12, "catch": 15},
-        {"level": 80, "HP": 6274, "speed": 60, "endurance": 28, "attack": 38, "pass": 38, "block": 29, "shot": 14, "catch": 17},
-        {"level": 90, "HP": 7421, "speed": 60, "endurance": 32, "attack": 38, "pass": 38, "block": 29, "shot": 17, "catch": 19},
-        {"level": 99, "HP": 8523, "speed": 60, "endurance": 36, "attack": 38, "pass": 38, "block": 29, "shot": 20, "catch": 20}
+        {"level": 70, "HP": 5209, "speed": 60, "endurance": 24, "attack": 37, "pass": 36, "block": 28, "shot": 12, "catch": 15},
+        {"level": 80, "HP": 6274, "speed": 60, "endurance": 28, "attack": 38, "pass": 37, "block": 23, "shot": 14, "catch": 17},
+        {"level": 90, "HP": 7421, "speed": 60, "endurance": 32, "attack": 38, "pass": 37, "block": 23, "shot": 17, "catch": 19},
+        {"level": 99, "HP": 8523, "speed": 60, "endurance": 36, "attack": 38, "pass": 36, "block": 23, "shot": 19, "catch": 20}
       ]
     },
     {
@@ -274,18 +274,18 @@
         {"level": 5, "HP": 309, "speed": 60, "endurance": 5, "attack": 2, "pass": 3, "block": 5, "shot": 2, "catch": 10},
         {"level": 10, "HP": 532, "speed": 61, "endurance": 6, "attack": 2, "pass": 4, "block": 7, "shot": 4, "catch": 12},
         {"level": 15, "HP": 789, "speed": 61, "endurance": 7, "attack": 2, "pass": 5, "block": 9, "shot": 5, "catch": 14},
-        {"level": 20, "HP": 1022, "speed": 62, "endurance": 9, "attack": 3, "pass": 6, "block": 10, "shot": 7, "catch": 16},
-        {"level": 25, "HP": 1289, "speed": 62, "endurance": 11, "attack": 4, "pass": 7, "block": 12, "shot": 10, "catch": 18},
-        {"level": 30, "HP": 1572, "speed": 63, "endurance": 13, "attack": 5, "pass": 8, "block": 14, "shot": 12, "catch": 21},
-        {"level": 35, "HP": 1889, "speed": 63, "endurance": 15, "attack": 7, "pass": 9, "block": 15, "shot": 14, "catch": 23},
-        {"level": 40, "HP": 2182, "speed": 64, "endurance": 18, "attack": 9, "pass": 10, "block": 17, "shot": 16, "catch": 25},
-        {"level": 45, "HP": 2509, "speed": 64, "endurance": 21, "attack": 10, "pass": 11, "block": 19, "shot": 18, "catch": 27},
-        {"level": 50, "HP": 2852, "speed": 65, "endurance": 24, "attack": 12, "pass": 12, "block": 21, "shot": 21, "catch": 30},
-        {"level": 60, "HP": 3582, "speed": 66, "endurance": 30, "attack": 14, "pass": 14, "block": 24, "shot": 24, "catch": 34},
-        {"level": 70, "HP": 4372, "speed": 67, "endurance": 37, "attack": 16, "pass": 16, "block": 27, "shot": 27, "catch": 39},
-        {"level": 80, "HP": 5222, "speed": 68, "endurance": 45, "attack": 18, "pass": 18, "block": 31, "shot": 30, "catch": 45},
-        {"level": 90, "HP": 6132, "speed": 68, "endurance": 54, "attack": 20, "pass": 20, "block": 34, "shot": 32, "catch": 50},
-        {"level": 99, "HP": 7002, "speed": 69, "endurance": 63, "attack": 21, "pass": 21, "block": 37, "shot": 35, "catch": 55}
+        {"level": 20, "HP": 1022, "speed": 62, "endurance": 9, "attack": 2, "pass": 6, "block": 10, "shot": 7, "catch": 16},
+        {"level": 25, "HP": 1289, "speed": 62, "endurance": 11, "attack": 3, "pass": 7, "block": 12, "shot": 8, "catch": 18},
+        {"level": 30, "HP": 1572, "speed": 63, "endurance": 13, "attack": 3, "pass": 8, "block": 14, "shot": 10, "catch": 21},
+        {"level": 35, "HP": 1889, "speed": 63, "endurance": 15, "attack": 4, "pass": 9, "block": 15, "shot": 11, "catch": 23},
+        {"level": 40, "HP": 2182, "speed": 64, "endurance": 18, "attack": 4, "pass": 10, "block": 17, "shot": 13, "catch": 25},
+        {"level": 45, "HP": 2509, "speed": 64, "endurance": 21, "attack": 5, "pass": 11, "block": 19, "shot": 14, "catch": 27},
+        {"level": 50, "HP": 2852, "speed": 65, "endurance": 24, "attack": 6, "pass": 12, "block": 21, "shot": 16, "catch": 29},
+        {"level": 60, "HP": 3582, "speed": 66, "endurance": 30, "attack": 7, "pass": 14, "block": 24, "shot": 19, "catch": 33},
+        {"level": 70, "HP": 4372, "speed": 67, "endurance": 37, "attack": 9, "pass": 16, "block": 27, "shot": 22, "catch": 37},
+        {"level": 80, "HP": 5222, "speed": 68, "endurance": 45, "attack": 11, "pass": 18, "block": 31, "shot": 25, "catch": 41},
+        {"level": 90, "HP": 6132, "speed": 68, "endurance": 54, "attack": 14, "pass": 20, "block": 34, "shot": 28, "catch": 45},
+        {"level": 99, "HP": 7002, "speed": 69, "endurance": 63, "attack": 16, "pass": 21, "block": 37, "shot": 30, "catch": 48}
       ]
     },
     {
@@ -342,22 +342,22 @@
       "starting_team": "Kilika Beasts",
       "key_techniques": ["Wither Pass", "Golden Arm", "Venom Pass"],
       "stats": [
-        {"level": 3, "HP": 139, "speed": 60, "endurance": 7, "attack": 9, "pass": 9, "block": 6, "shot": 4, "catch": 1},
-        {"level": 5, "HP": 191, "speed": 60, "endurance": 8, "attack": 10, "pass": 10, "block": 7, "shot": 5, "catch": 2},
-        {"level": 10, "HP": 355, "speed": 60, "endurance": 10, "attack": 13, "pass": 13, "block": 9, "shot": 8, "catch": 2},
-        {"level": 15, "HP": 567, "speed": 60, "endurance": 12, "attack": 16, "pass": 16, "block": 11, "shot": 9, "catch": 3},
-        {"level": 20, "HP": 829, "speed": 60, "endurance": 14, "attack": 20, "pass": 20, "block": 13, "shot": 11, "catch": 4},
-        {"level": 25, "HP": 1139, "speed": 60, "endurance": 17, "attack": 23, "pass": 23, "block": 15, "shot": 13, "catch": 5},
-        {"level": 30, "HP": 1499, "speed": 60, "endurance": 19, "attack": 27, "pass": 27, "block": 17, "shot": 15, "catch": 6},
-        {"level": 35, "HP": 1907, "speed": 60, "endurance": 22, "attack": 31, "pass": 31, "block": 20, "shot": 18, "catch": 7},
-        {"level": 40, "HP": 2365, "speed": 60, "endurance": 25, "attack": 36, "pass": 36, "block": 23, "shot": 20, "catch": 8},
-        {"level": 45, "HP": 2871, "speed": 60, "endurance": 28, "attack": 40, "pass": 40, "block": 26, "shot": 23, "catch": 9},
-        {"level": 50, "HP": 3427, "speed": 60, "endurance": 32, "attack": 45, "pass": 45, "block": 30, "shot": 26, "catch": 10},
-        {"level": 60, "HP": 4270, "speed": 60, "endurance": 36, "attack": 54, "pass": 54, "block": 35, "shot": 31, "catch": 11},
-        {"level": 70, "HP": 5379, "speed": 60, "endurance": 42, "attack": 62, "pass": 62, "block": 39, "shot": 35, "catch": 12},
-        {"level": 80, "HP": 6616, "speed": 60, "endurance": 48, "attack": 70, "pass": 70, "block": 44, "shot": 39, "catch": 13},
-        {"level": 90, "HP": 7989, "speed": 60, "endurance": 55, "attack": 78, "pass": 78, "block": 48, "shot": 42, "catch": 14},
-        {"level": 99, "HP": 9480, "speed": 60, "endurance": 63, "attack": 85, "pass": 85, "block": 53, "shot": 46, "catch": 15}
+        {"level": 3, "HP": 139, "speed": 60, "endurance": 7, "attack": 6, "pass": 9, "block": 6, "shot": 4, "catch": 1},
+        {"level": 5, "HP": 191, "speed": 60, "endurance": 8, "attack": 7, "pass": 10, "block": 7, "shot": 5, "catch": 2},
+        {"level": 10, "HP": 355, "speed": 60, "endurance": 10, "attack": 9, "pass": 13, "block": 8, "shot": 6, "catch": 3},
+        {"level": 15, "HP": 567, "speed": 60, "endurance": 12, "attack": 11, "pass": 16, "block": 9, "shot": 7, "catch": 4},
+        {"level": 20, "HP": 829, "speed": 60, "endurance": 14, "attack": 13, "pass": 20, "block": 11, "shot": 9, "catch": 5},
+        {"level": 25, "HP": 1139, "speed": 60, "endurance": 17, "attack": 15, "pass": 23, "block": 13, "shot": 10, "catch": 6},
+        {"level": 30, "HP": 1499, "speed": 60, "endurance": 19, "attack": 17, "pass": 27, "block": 15, "shot": 11, "catch": 7},
+        {"level": 35, "HP": 1907, "speed": 60, "endurance": 22, "attack": 20, "pass": 31, "block": 17, "shot": 12, "catch": 8},
+        {"level": 40, "HP": 2365, "speed": 60, "endurance": 25, "attack": 22, "pass": 36, "block": 20, "shot": 14, "catch": 9},
+        {"level": 45, "HP": 2871, "speed": 60, "endurance": 28, "attack": 25, "pass": 40, "block": 23, "shot": 15, "catch": 10},
+        {"level": 50, "HP": 3427, "speed": 60, "endurance": 32, "attack": 27, "pass": 45, "block": 26, "shot": 16, "catch": 11},
+        {"level": 60, "HP": 4685, "speed": 60, "endurance": 39, "attack": 32, "pass": 56, "block": 32, "shot": 19, "catch": 13},
+        {"level": 70, "HP": 6139, "speed": 60, "endurance": 41, "attack": 37, "pass": 67, "block": 39, "shot": 21, "catch": 15},
+        {"level": 80, "HP": 7789, "speed": 60, "endurance": 56, "attack": 43, "pass": 80, "block": 47, "shot": 24, "catch": 17},
+        {"level": 90, "HP": 9635, "speed": 60, "endurance": 66, "attack": 49, "pass": 93, "block": 56, "shot": 26, "catch": 19},
+        {"level": 99, "HP": 9999, "speed": 60, "endurance": 75, "attack": 54, "pass": 99, "block": 65, "shot": 28, "catch": 20}
       ]
     },
     {
@@ -377,10 +377,10 @@
         {"level": 45, "HP": 2721, "speed": 60, "endurance": 10, "attack": 28, "pass": 39, "block": 22, "shot": 7, "catch": 3},
         {"level": 50, "HP": 3175, "speed": 60, "endurance": 12, "attack": 31, "pass": 43, "block": 25, "shot": 8, "catch": 4},
         {"level": 60, "HP": 4179, "speed": 60, "endurance": 15, "attack": 37, "pass": 52, "block": 31, "shot": 9, "catch": 5},
-        {"level": 70, "HP": 5311, "speed": 60, "endurance": 20, "attack": 41, "pass": 62, "block": 36, "shot": 11, "catch": 7},
-        {"level": 80, "HP": 6571, "speed": 60, "endurance": 25, "attack": 46, "pass": 73, "block": 44, "shot": 12, "catch": 9},
-        {"level": 90, "HP": 7959, "speed": 60, "endurance": 30, "attack": 50, "pass": 85, "block": 53, "shot": 16, "catch": 10},
-        {"level": 99, "HP": 9317, "speed": 60, "endurance": 35, "attack": 64, "pass": 96, "block": 64, "shot": 18, "catch": 12}
+        {"level": 70, "HP": 5311, "speed": 60, "endurance": 20, "attack": 43, "pass": 62, "block": 38, "shot": 11, "catch": 7},
+        {"level": 80, "HP": 6571, "speed": 60, "endurance": 25, "attack": 50, "pass": 73, "block": 46, "shot": 12, "catch": 9},
+        {"level": 90, "HP": 7959, "speed": 60, "endurance": 30, "attack": 57, "pass": 85, "block": 55, "shot": 16, "catch": 10},
+        {"level": 99, "HP": 9317, "speed": 60, "endurance": 36, "attack": 64, "pass": 96, "block": 64, "shot": 18, "catch": 12}
       ]
     },
     {
@@ -400,11 +400,11 @@
         {"level": 40, "HP": 2325, "speed": 60, "endurance": 17, "attack": 27, "pass": 28, "block": 20, "shot": 5, "catch": 9},
         {"level": 45, "HP": 2804, "speed": 60, "endurance": 19, "attack": 29, "pass": 32, "block": 22, "shot": 6, "catch": 10},
         {"level": 50, "HP": 3327, "speed": 60, "endurance": 21, "attack": 32, "pass": 36, "block": 25, "shot": 7, "catch": 11},
-        {"level": 60, "HP": 4505, "speed": 60, "endurance": 24, "attack": 35, "pass": 40, "block": 31, "shot": 8, "catch": 13},
-        {"level": 70, "HP": 5859, "speed": 60, "endurance": 27, "attack": 39, "pass": 42, "block": 38, "shot": 10, "catch": 15},
-        {"level": 80, "HP": 7389, "speed": 60, "endurance": 31, "attack": 42, "pass": 44, "block": 46, "shot": 12, "catch": 17},
-        {"level": 90, "HP": 9095, "speed": 60, "endurance": 34, "attack": 44, "pass": 50, "block": 54, "shot": 14, "catch": 19},
-        {"level": 99, "HP": 9999, "speed": 60, "endurance": 37, "attack": 46, "pass": 55, "block": 69, "shot": 16, "catch": 20}
+        {"level": 60, "HP": 4505, "speed": 60, "endurance": 24, "attack": 35, "pass": 45, "block": 31, "shot": 8, "catch": 13},
+        {"level": 70, "HP": 5859, "speed": 60, "endurance": 27, "attack": 39, "pass": 55, "block": 38, "shot": 10, "catch": 15},
+        {"level": 80, "HP": 7389, "speed": 60, "endurance": 31, "attack": 42, "pass": 66, "block": 46, "shot": 12, "catch": 17},
+        {"level": 90, "HP": 9095, "speed": 60, "endurance": 34, "attack": 44, "pass": 78, "block": 54, "shot": 14, "catch": 19},
+        {"level": 99, "HP": 9999, "speed": 60, "endurance": 37, "attack": 46, "pass": 89, "block": 69, "shot": 16, "catch": 20}
       ]
     },
     {
@@ -450,9 +450,9 @@
         {"level": 50, "HP": 3415, "speed": 60, "endurance": 35, "attack": 22, "pass": 42, "block": 34, "shot": 46, "catch": 4},
         {"level": 60, "HP": 4518, "speed": 60, "endurance": 37, "attack": 24, "pass": 45, "block": 38, "shot": 48, "catch": 5},
         {"level": 70, "HP": 5767, "speed": 60, "endurance": 40, "attack": 27, "pass": 47, "block": 41, "shot": 50, "catch": 7},
-        {"level": 80, "HP": 7162, "speed": 60, "endurance": 42, "attack": 29, "pass": 50, "block": 43, "shot": 54, "catch": 9},
-        {"level": 90, "HP": 8703, "speed": 60, "endurance": 44, "attack": 30, "pass": 52, "block": 46, "shot": 57, "catch": 10},
-        {"level": 99, "HP": 9999, "speed": 60, "endurance": 46, "attack": 31, "pass": 54, "block": 47, "shot": 61, "catch": 12}
+        {"level": 80, "HP": 7162, "speed": 60, "endurance": 42, "attack": 29, "pass": 48, "block": 43, "shot": 54, "catch": 9},
+        {"level": 90, "HP": 8703, "speed": 60, "endurance": 44, "attack": 30, "pass": 48, "block": 46, "shot": 57, "catch": 10},
+        {"level": 99, "HP": 9999, "speed": 60, "endurance": 46, "attack": 31, "pass": 47, "block": 47, "shot": 61, "catch": 12}
       ]
     },
     {
@@ -490,17 +490,17 @@
         {"level": 10, "HP": 473, "speed": 60, "endurance": 12, "attack": 14, "pass": 18, "block": 15, "shot": 7, "catch": 3},
         {"level": 15, "HP": 701, "speed": 60, "endurance": 15, "attack": 16, "pass": 22, "block": 18, "shot": 8, "catch": 4},
         {"level": 20, "HP": 962, "speed": 60, "endurance": 18, "attack": 19, "pass": 26, "block": 21, "shot": 10, "catch": 5},
-        {"level": 25, "HP": 1253, "speed": 60, "endurance": 21, "attack": 21, "pass": 30, "block": 23, "shot": 13, "catch": 6},
-        {"level": 30, "HP": 1577, "speed": 60, "endurance": 24, "attack": 23, "pass": 34, "block": 25, "shot": 17, "catch": 7},
-        {"level": 35, "HP": 1931, "speed": 60, "endurance": 26, "attack": 25, "pass": 37, "block": 28, "shot": 20, "catch": 8},
-        {"level": 40, "HP": 2318, "speed": 60, "endurance": 29, "attack": 27, "pass": 41, "block": 30, "shot": 22, "catch": 9},
-        {"level": 45, "HP": 2735, "speed": 60, "endurance": 31, "attack": 29, "pass": 44, "block": 32, "shot": 25, "catch": 10},
-        {"level": 50, "HP": 3185, "speed": 60, "endurance": 34, "attack": 31, "pass": 47, "block": 34, "shot": 28, "catch": 11},
-        {"level": 60, "HP": 4178, "speed": 60, "endurance": 39, "attack": 34, "pass": 50, "block": 38, "shot": 31, "catch": 13},
-        {"level": 70, "HP": 5297, "speed": 60, "endurance": 44, "attack": 37, "pass": 52, "block": 41, "shot": 35, "catch": 14},
-        {"level": 80, "HP": 6542, "speed": 60, "endurance": 48, "attack": 40, "pass": 55, "block": 44, "shot": 39, "catch": 15},
-        {"level": 90, "HP": 7913, "speed": 60, "endurance": 52, "attack": 42, "pass": 57, "block": 46, "shot": 42, "catch": 16},
-        {"level": 99, "HP": 9254, "speed": 60, "endurance": 56, "attack": 43, "pass": 59, "block": 48, "shot": 48, "catch": 20}
+        {"level": 25, "HP": 1253, "speed": 60, "endurance": 21, "attack": 21, "pass": 30, "block": 23, "shot": 11, "catch": 6},
+        {"level": 30, "HP": 1577, "speed": 60, "endurance": 24, "attack": 23, "pass": 34, "block": 25, "shot": 13, "catch": 7},
+        {"level": 35, "HP": 1931, "speed": 60, "endurance": 26, "attack": 25, "pass": 37, "block": 28, "shot": 14, "catch": 8},
+        {"level": 40, "HP": 2318, "speed": 60, "endurance": 29, "attack": 27, "pass": 41, "block": 30, "shot": 16, "catch": 9},
+        {"level": 45, "HP": 2735, "speed": 60, "endurance": 31, "attack": 29, "pass": 44, "block": 32, "shot": 17, "catch": 10},
+        {"level": 50, "HP": 3185, "speed": 60, "endurance": 34, "attack": 31, "pass": 47, "block": 34, "shot": 19, "catch": 11},
+        {"level": 60, "HP": 4178, "speed": 60, "endurance": 39, "attack": 34, "pass": 53, "block": 38, "shot": 22, "catch": 13},
+        {"level": 70, "HP": 5297, "speed": 60, "endurance": 44, "attack": 37, "pass": 58, "block": 41, "shot": 25, "catch": 15},
+        {"level": 80, "HP": 6542, "speed": 60, "endurance": 48, "attack": 40, "pass": 62, "block": 44, "shot": 28, "catch": 17},
+        {"level": 90, "HP": 7913, "speed": 60, "endurance": 52, "attack": 42, "pass": 66, "block": 46, "shot": 31, "catch": 19},
+        {"level": 99, "HP": 9254, "speed": 60, "endurance": 56, "attack": 43, "pass": 69, "block": 48, "shot": 33, "catch": 20}
       ]
     },
     {
@@ -524,7 +524,7 @@
         {"level": 70, "HP": 4643, "speed": 60, "endurance": 51, "attack": 43, "pass": 60, "block": 37, "shot": 8, "catch": 17},
         {"level": 80, "HP": 6643, "speed": 60, "endurance": 55, "attack": 46, "pass": 66, "block": 44, "shot": 9, "catch": 19},
         {"level": 90, "HP": 8254, "speed": 60, "endurance": 58, "attack": 48, "pass": 71, "block": 53, "shot": 10, "catch": 21},
-        {"level": 99, "HP": 9631, "speed": 60, "endurance": 60, "attack": 50, "pass": 75, "block": 61, "shot": 10, "catch": 22}
+        {"level": 99, "HP": 9631, "speed": 60, "endurance": 60, "attack": 50, "pass": 76, "block": 61, "shot": 10, "catch": 22}
       ]
     },
     {
@@ -545,9 +545,9 @@
         {"level": 45, "HP": 2859, "speed": 60, "endurance": 27, "attack": 31, "pass": 47, "block": 23, "shot": 7, "catch": 6},
         {"level": 50, "HP": 3347, "speed": 60, "endurance": 31, "attack": 33, "pass": 49, "block": 26, "shot": 8, "catch": 7},
         {"level": 60, "HP": 4429, "speed": 60, "endurance": 37, "attack": 37, "pass": 53, "block": 32, "shot": 10, "catch": 9},
-        {"level": 70, "HP": 6020, "speed": 60, "endurance": 45, "attack": 44, "pass": 60, "block": 40, "shot": 12, "catch": 11},
-        {"level": 80, "HP": 7829, "speed": 60, "endurance": 48, "attack": 47, "pass": 63, "block": 49, "shot": 13, "catch": 13},
-        {"level": 90, "HP": 8529, "speed": 60, "endurance": 50, "attack": 49, "pass": 66, "block": 59, "shot": 16, "catch": 14},
+        {"level": 70, "HP": 6020, "speed": 60, "endurance": 45, "attack": 41, "pass": 57, "block": 40, "shot": 13, "catch": 12},
+        {"level": 80, "HP": 7829, "speed": 60, "endurance": 53, "attack": 44, "pass": 60, "block": 49, "shot": 16, "catch": 15},
+        {"level": 90, "HP": 8529, "speed": 60, "endurance": 61, "attack": 47, "pass": 63, "block": 59, "shot": 19, "catch": 18},
         {"level": 99, "HP": 9999, "speed": 60, "endurance": 70, "attack": 49, "pass": 66, "block": 68, "shot": 22, "catch": 21}
       ]
     },
@@ -588,15 +588,15 @@
         {"level": 20, "HP": 1471, "speed": 40, "endurance": 24, "attack": 12, "pass": 5, "block": 8, "shot": 26, "catch": 1},
         {"level": 25, "HP": 1801, "speed": 41, "endurance": 26, "attack": 15, "pass": 6, "block": 9, "shot": 31, "catch": 2},
         {"level": 30, "HP": 2121, "speed": 41, "endurance": 29, "attack": 17, "pass": 7, "block": 11, "shot": 35, "catch": 2},
-        {"level": 35, "HP": 2431, "speed": 41, "endurance": 32, "attack": 19, "pass": 7, "block": 12, "shot": 40, "catch": 3},
+        {"level": 35, "HP": 2431, "speed": 41, "endurance": 32, "attack": 19, "pass": 7, "block": 12, "shot": 40, "catch": 2},
         {"level": 40, "HP": 2731, "speed": 41, "endurance": 35, "attack": 21, "pass": 8, "block": 14, "shot": 44, "catch": 3},
-        {"level": 45, "HP": 3021, "speed": 41, "endurance": 38, "attack": 23, "pass": 9, "block": 15, "shot": 48, "catch": 4},
+        {"level": 45, "HP": 3021, "speed": 41, "endurance": 38, "attack": 23, "pass": 9, "block": 15, "shot": 48, "catch": 3},
         {"level": 50, "HP": 3301, "speed": 42, "endurance": 42, "attack": 26, "pass": 10, "block": 17, "shot": 52, "catch": 4},
         {"level": 60, "HP": 3831, "speed": 42, "endurance": 50, "attack": 30, "pass": 11, "block": 20, "shot": 59, "catch": 5},
-        {"level": 70, "HP": 4321, "speed": 42, "endurance": 58, "attack": 34, "pass": 12, "block": 23, "shot": 65, "catch": 6},
-        {"level": 80, "HP": 4771, "speed": 43, "endurance": 68, "attack": 39, "pass": 14, "block": 26, "shot": 71, "catch": 7},
-        {"level": 90, "HP": 5181, "speed": 43, "endurance": 78, "attack": 43, "pass": 15, "block": 29, "shot": 76, "catch": 8},
-        {"level": 99, "HP": 5515, "speed": 43, "endurance": 88, "attack": 47, "pass": 16, "block": 31, "shot": 80, "catch": 10}
+        {"level": 70, "HP": 4321, "speed": 42, "endurance": 58, "attack": 34, "pass": 12, "block": 23, "shot": 65, "catch": 7},
+        {"level": 80, "HP": 4771, "speed": 43, "endurance": 68, "attack": 39, "pass": 14, "block": 26, "shot": 71, "catch": 9},
+        {"level": 90, "HP": 5181, "speed": 43, "endurance": 78, "attack": 43, "pass": 15, "block": 29, "shot": 76, "catch": 10},
+        {"level": 99, "HP": 5515, "speed": 43, "endurance": 88, "attack": 47, "pass": 16, "block": 31, "shot": 80, "catch": 12}
       ]
     },
     {
@@ -633,18 +633,18 @@
         {"level": 5, "HP": 547, "speed": 40, "endurance": 20, "attack": 8, "pass": 12, "block": 5, "shot": 5, "catch": 2},
         {"level": 10, "HP": 936, "speed": 40, "endurance": 20, "attack": 9, "pass": 15, "block": 7, "shot": 6, "catch": 3},
         {"level": 15, "HP": 1317, "speed": 40, "endurance": 21, "attack": 10, "pass": 17, "block": 9, "shot": 7, "catch": 4},
-        {"level": 20, "HP": 1691, "speed": 40, "endurance": 21, "attack": 12, "pass": 20, "block": 11, "shot": 11, "catch": 5},
-        {"level": 25, "HP": 2057, "speed": 40, "endurance": 22, "attack": 13, "pass": 22, "block": 13, "shot": 15, "catch": 6},
-        {"level": 30, "HP": 2416, "speed": 40, "endurance": 23, "attack": 15, "pass": 25, "block": 15, "shot": 17, "catch": 7},
-        {"level": 35, "HP": 2767, "speed": 41, "endurance": 24, "attack": 17, "pass": 27, "block": 17, "shot": 19, "catch": 8},
-        {"level": 40, "HP": 3111, "speed": 41, "endurance": 26, "attack": 19, "pass": 30, "block": 19, "shot": 21, "catch": 8},
-        {"level": 45, "HP": 3447, "speed": 41, "endurance": 28, "attack": 20, "pass": 32, "block": 21, "shot": 23, "catch": 9},
-        {"level": 50, "HP": 3776, "speed": 41, "endurance": 30, "attack": 21, "pass": 35, "block": 23, "shot": 25, "catch": 10},
-        {"level": 60, "HP": 4411, "speed": 41, "endurance": 34, "attack": 24, "pass": 40, "block": 28, "shot": 28, "catch": 11},
-        {"level": 70, "HP": 5016, "speed": 42, "endurance": 39, "attack": 27, "pass": 45, "block": 32, "shot": 32, "catch": 13},
-        {"level": 80, "HP": 5591, "speed": 42, "endurance": 45, "attack": 30, "pass": 50, "block": 37, "shot": 37, "catch": 15},
-        {"level": 90, "HP": 6136, "speed": 42, "endurance": 52, "attack": 32, "pass": 55, "block": 42, "shot": 42, "catch": 17},
-        {"level": 99, "HP": 6600, "speed": 42, "endurance": 59, "attack": 33, "pass": 60, "block": 47, "shot": 47, "catch": 20}
+        {"level": 20, "HP": 1691, "speed": 40, "endurance": 21, "attack": 12, "pass": 20, "block": 11, "shot": 8, "catch": 5},
+        {"level": 25, "HP": 2057, "speed": 40, "endurance": 22, "attack": 13, "pass": 22, "block": 13, "shot": 9, "catch": 6},
+        {"level": 30, "HP": 2416, "speed": 40, "endurance": 23, "attack": 15, "pass": 25, "block": 15, "shot": 10, "catch": 7},
+        {"level": 35, "HP": 2767, "speed": 41, "endurance": 24, "attack": 17, "pass": 27, "block": 17, "shot": 11, "catch": 8},
+        {"level": 40, "HP": 3111, "speed": 41, "endurance": 26, "attack": 19, "pass": 30, "block": 19, "shot": 12, "catch": 9},
+        {"level": 45, "HP": 3447, "speed": 41, "endurance": 28, "attack": 22, "pass": 32, "block": 21, "shot": 13, "catch": 10},
+        {"level": 50, "HP": 3776, "speed": 41, "endurance": 30, "attack": 24, "pass": 35, "block": 23, "shot": 14, "catch": 11},
+        {"level": 60, "HP": 4411, "speed": 41, "endurance": 34, "attack": 29, "pass": 40, "block": 28, "shot": 16, "catch": 13},
+        {"level": 70, "HP": 5016, "speed": 42, "endurance": 39, "attack": 35, "pass": 45, "block": 32, "shot": 18, "catch": 15},
+        {"level": 80, "HP": 5591, "speed": 42, "endurance": 45, "attack": 42, "pass": 50, "block": 37, "shot": 20, "catch": 17},
+        {"level": 90, "HP": 6136, "speed": 42, "endurance": 52, "attack": 49, "pass": 55, "block": 42, "shot": 22, "catch": 19},
+        {"level": 99, "HP": 6600, "speed": 42, "endurance": 59, "attack": 56, "pass": 59, "block": 47, "shot": 24, "catch": 20}
       ]
     },
     {
@@ -654,21 +654,21 @@
       "key_techniques": ["Wither Tackle", "Venom Shot", "Anti-Nap"],
       "stats": [
         {"level": 1, "HP": 214, "speed": 40, "endurance": 11, "attack": 12, "pass": 7, "block": 4, "shot": 1, "catch": 1},
-        {"level": 5, "HP": 472, "speed": 40, "endurance": 12, "attack": 13, "pass": 9, "block": 6, "shot": 1, "catch": 2},
-        {"level": 10, "HP": 788, "speed": 40, "endurance": 13, "attack": 14, "pass": 11, "block": 8, "shot": 2, "catch": 4},
-        {"level": 15, "HP": 1098, "speed": 40, "endurance": 15, "attack": 15, "pass": 15, "block": 11, "shot": 2, "catch": 5},
-        {"level": 20, "HP": 1402, "speed": 40, "endurance": 17, "attack": 17, "pass": 18, "block": 13, "shot": 2, "catch": 7},
-        {"level": 25, "HP": 1700, "speed": 40, "endurance": 19, "attack": 18, "pass": 20, "block": 15, "shot": 3, "catch": 8},
-        {"level": 30, "HP": 1992, "speed": 40, "endurance": 21, "attack": 20, "pass": 21, "block": 18, "shot": 4, "catch": 10},
-        {"level": 35, "HP": 2278, "speed": 41, "endurance": 24, "attack": 22, "pass": 24, "block": 20, "shot": 4, "catch": 12},
-        {"level": 40, "HP": 2558, "speed": 41, "endurance": 27, "attack": 24, "pass": 27, "block": 22, "shot": 5, "catch": 14},
-        {"level": 45, "HP": 2832, "speed": 41, "endurance": 30, "attack": 27, "pass": 30, "block": 24, "shot": 6, "catch": 16},
-        {"level": 50, "HP": 3100, "speed": 41, "endurance": 33, "attack": 29, "pass": 34, "block": 26, "shot": 7, "catch": 18},
-        {"level": 60, "HP": 3618, "speed": 41, "endurance": 41, "attack": 35, "pass": 40, "block": 30, "shot": 8, "catch": 22},
-        {"level": 70, "HP": 4112, "speed": 42, "endurance": 49, "attack": 41, "pass": 46, "block": 34, "shot": 10, "catch": 27},
-        {"level": 80, "HP": 4582, "speed": 42, "endurance": 59, "attack": 47, "pass": 53, "block": 37, "shot": 12, "catch": 32},
-        {"level": 90, "HP": 5028, "speed": 42, "endurance": 69, "attack": 55, "pass": 61, "block": 40, "shot": 14, "catch": 39},
-        {"level": 99, "HP": 5408, "speed": 42, "endurance": 79, "attack": 62, "pass": 69, "block": 43, "shot": 16, "catch": 45}
+        {"level": 5, "HP": 472, "speed": 40, "endurance": 12, "attack": 13, "pass": 9, "block": 6, "shot": 1, "catch": 1},
+        {"level": 10, "HP": 788, "speed": 40, "endurance": 13, "attack": 14, "pass": 12, "block": 8, "shot": 2, "catch": 1},
+        {"level": 15, "HP": 1098, "speed": 40, "endurance": 15, "attack": 15, "pass": 15, "block": 11, "shot": 2, "catch": 2},
+        {"level": 20, "HP": 1402, "speed": 40, "endurance": 17, "attack": 17, "pass": 17, "block": 13, "shot": 2, "catch": 3},
+        {"level": 25, "HP": 1700, "speed": 40, "endurance": 19, "attack": 18, "pass": 20, "block": 15, "shot": 3, "catch": 3},
+        {"level": 30, "HP": 1992, "speed": 40, "endurance": 21, "attack": 20, "pass": 24, "block": 18, "shot": 4, "catch": 4},
+        {"level": 35, "HP": 2278, "speed": 41, "endurance": 24, "attack": 22, "pass": 27, "block": 20, "shot": 4, "catch": 5},
+        {"level": 40, "HP": 2558, "speed": 41, "endurance": 27, "attack": 24, "pass": 30, "block": 22, "shot": 5, "catch": 5},
+        {"level": 45, "HP": 2832, "speed": 41, "endurance": 30, "attack": 27, "pass": 34, "block": 24, "shot": 6, "catch": 6},
+        {"level": 50, "HP": 3100, "speed": 41, "endurance": 33, "attack": 29, "pass": 37, "block": 26, "shot": 7, "catch": 7},
+        {"level": 60, "HP": 3618, "speed": 41, "endurance": 41, "attack": 35, "pass": 45, "block": 30, "shot": 8, "catch": 9},
+        {"level": 70, "HP": 4112, "speed": 42, "endurance": 49, "attack": 41, "pass": 53, "block": 34, "shot": 10, "catch": 11},
+        {"level": 80, "HP": 4582, "speed": 42, "endurance": 59, "attack": 47, "pass": 61, "block": 37, "shot": 12, "catch": 13},
+        {"level": 90, "HP": 5028, "speed": 42, "endurance": 69, "attack": 55, "pass": 70, "block": 40, "shot": 14, "catch": 16},
+        {"level": 99, "HP": 5408, "speed": 42, "endurance": 79, "attack": 62, "pass": 79, "block": 43, "shot": 16, "catch": 18}
       ]
     },
     {
@@ -738,9 +738,9 @@
     {"level": 50, "HP": 3080, "speed": 76, "endurance": 22, "attack": 13, "pass": 45, "block": 30, "shot": 41, "catch": 4},
     {"level": 60, "HP": 4040, "speed": 76, "endurance": 26, "attack": 15, "pass": 52, "block": 32, "shot": 47, "catch": 5},
     {"level": 70, "HP": 5120, "speed": 77, "endurance": 31, "attack": 17, "pass": 59, "block": 35, "shot": 53, "catch": 7},
-    {"level": 80, "HP": 6320, "speed": 77, "endurance": 37, "attack": 19, "pass": 65, "block": 37, "shot": 60, "catch": 9},
-    {"level": 90, "HP": 7640, "speed": 77, "endurance": 44, "attack": 21, "pass": 72, "block": 39, "shot": 66, "catch": 10},
-    {"level": 99, "HP": 8930, "speed": 77, "endurance": 51, "attack": 22, "pass": 80, "block": 41, "shot": 70, "catch": 12}
+    {"level": 80, "HP": 6320, "speed": 77, "endurance": 37, "attack": 19, "pass": 66, "block": 37, "shot": 59, "catch": 9},
+    {"level": 90, "HP": 7640, "speed": 77, "endurance": 44, "attack": 21, "pass": 73, "block": 39, "shot": 65, "catch": 10},
+    {"level": 99, "HP": 8930, "speed": 77, "endurance": 51, "attack": 22, "pass": 79, "block": 41, "shot": 70, "catch": 12}
   ]
     },
     {
@@ -760,11 +760,11 @@
         {"level": 40, "HP": 2170, "speed": 76, "endurance": 18, "attack": 7, "pass": 39, "block": 24, "shot": 33, "catch": 7},
         {"level": 45, "HP": 2553, "speed": 76, "endurance": 20, "attack": 7, "pass": 42, "block": 26, "shot": 35, "catch": 8},
         {"level": 50, "HP": 2965, "speed": 76, "endurance": 22, "attack": 8, "pass": 46, "block": 27, "shot": 38, "catch": 9},
-        {"level": 60, "HP": 3870, "speed": 76, "endurance": 26, "attack": 9, "pass": 51, "block": 30, "shot": 43, "catch": 11},
-        {"level": 70, "HP": 4885, "speed": 76, "endurance": 31, "attack": 10, "pass": 57, "block": 33, "shot": 49, "catch": 13},
-        {"level": 80, "HP": 6010, "speed": 76, "endurance": 37, "attack": 11, "pass": 64, "block": 36, "shot": 54, "catch": 15},
-        {"level": 90, "HP": 7245, "speed": 77, "endurance": 44, "attack": 12, "pass": 71, "block": 39, "shot": 59, "catch": 17},
-        {"level": 99, "HP": 8450, "speed": 77, "endurance": 51, "attack": 13, "pass": 78, "block": 42, "shot": 62, "catch": 19}
+        {"level": 60, "HP": 3870, "speed": 76, "endurance": 26, "attack": 9, "pass": 51, "block": 29, "shot": 43, "catch": 11},
+        {"level": 70, "HP": 4885, "speed": 77, "endurance": 31, "attack": 10, "pass": 57, "block": 31, "shot": 49, "catch": 13},
+        {"level": 80, "HP": 6010, "speed": 77, "endurance": 37, "attack": 11, "pass": 62, "block": 33, "shot": 54, "catch": 16},
+        {"level": 90, "HP": 7245, "speed": 77, "endurance": 44, "attack": 12, "pass": 66, "block": 35, "shot": 59, "catch": 19},
+        {"level": 99, "HP": 8450, "speed": 77, "endurance": 51, "attack": 12, "pass": 70, "block": 36, "shot": 64, "catch": 21}
       ]
     },
     {
@@ -826,17 +826,17 @@
         {"level": 10, "HP": 351, "speed": 67, "endurance": 3, "attack": 10, "pass": 19, "block": 9, "shot": 1, "catch": 4},
         {"level": 15, "HP": 554, "speed": 67, "endurance": 3, "attack": 10, "pass": 23, "block": 11, "shot": 1, "catch": 4},
         {"level": 20, "HP": 796, "speed": 68, "endurance": 4, "attack": 11, "pass": 26, "block": 13, "shot": 1, "catch": 5},
-        {"level": 25, "HP": 1082, "speed": 68, "endurance": 5, "attack": 12, "pass": 29, "block": 15, "shot": 2, "catch": 6},
-        {"level": 30, "HP": 1408, "speed": 68, "endurance": 6, "attack": 13, "pass": 32, "block": 17, "shot": 2, "catch": 7},
-        {"level": 35, "HP": 1774, "speed": 68, "endurance": 7, "attack": 15, "pass": 34, "block": 20, "shot": 2, "catch": 8},
-        {"level": 40, "HP": 2182, "speed": 68, "endurance": 9, "attack": 17, "pass": 37, "block": 23, "shot": 3, "catch": 9},
-        {"level": 45, "HP": 2630, "speed": 68, "endurance": 11, "attack": 18, "pass": 39, "block": 26, "shot": 3, "catch": 10},
-        {"level": 50, "HP": 3120, "speed": 69, "endurance": 13, "attack": 19, "pass": 42, "block": 29, "shot": 3, "catch": 13},
-        {"level": 60, "HP": 4222, "speed": 69, "endurance": 17, "attack": 25, "pass": 46, "block": 34, "shot": 4, "catch": 17},
-        {"level": 70, "HP": 5488, "speed": 69, "endurance": 22, "attack": 31, "pass": 50, "block": 38, "shot": 5, "catch": 22},
-        {"level": 80, "HP": 6918, "speed": 69, "endurance": 28, "attack": 38, "pass": 53, "block": 45, "shot": 6, "catch": 28},
-        {"level": 90, "HP": 8512, "speed": 69, "endurance": 35, "attack": 45, "pass": 56, "block": 55, "shot": 8, "catch": 35},
-        {"level": 99, "HP": 9999, "speed": 69, "endurance": 42, "attack": 53, "pass": 58, "block": 65, "shot": 9, "catch": 42}
+        {"level": 25, "HP": 1082, "speed": 68, "endurance": 5, "attack": 12, "pass": 29, "block": 15, "shot": 2, "catch": 5},
+        {"level": 30, "HP": 1408, "speed": 68, "endurance": 6, "attack": 13, "pass": 32, "block": 17, "shot": 2, "catch": 6},
+        {"level": 35, "HP": 1774, "speed": 68, "endurance": 7, "attack": 15, "pass": 34, "block": 20, "shot": 2, "catch": 6},
+        {"level": 40, "HP": 2182, "speed": 68, "endurance": 9, "attack": 17, "pass": 37, "block": 23, "shot": 3, "catch": 7},
+        {"level": 45, "HP": 2630, "speed": 68, "endurance": 11, "attack": 18, "pass": 39, "block": 26, "shot": 3, "catch": 7},
+        {"level": 50, "HP": 3120, "speed": 69, "endurance": 13, "attack": 19, "pass": 42, "block": 29, "shot": 3, "catch": 8},
+        {"level": 60, "HP": 4222, "speed": 69, "endurance": 17, "attack": 25, "pass": 46, "block": 37, "shot": 4, "catch": 9},
+        {"level": 70, "HP": 5488, "speed": 69, "endurance": 22, "attack": 31, "pass": 50, "block": 45, "shot": 5, "catch": 10},
+        {"level": 80, "HP": 6918, "speed": 69, "endurance": 28, "attack": 38, "pass": 53, "block": 55, "shot": 6, "catch": 11},
+        {"level": 90, "HP": 8512, "speed": 69, "endurance": 35, "attack": 45, "pass": 56, "block": 65, "shot": 8, "catch": 12},
+        {"level": 99, "HP": 9999, "speed": 69, "endurance": 42, "attack": 53, "pass": 58, "block": 75, "shot": 9, "catch": 12}
       ]
     },
     {
@@ -906,9 +906,9 @@
         {"level": 50, "HP": 3327, "speed": 66, "endurance": 46, "attack": 31, "pass": 11, "block": 23, "shot": 22, "catch": 18},
         {"level": 60, "HP": 4409, "speed": 66, "endurance": 52, "attack": 34, "pass": 17, "block": 25, "shot": 21, "catch": 24},
         {"level": 70, "HP": 5633, "speed": 66, "endurance": 57, "attack": 37, "pass": 26, "block": 27, "shot": 21, "catch": 32},
-        {"level": 80, "HP": 7000, "speed": 66, "endurance": 61, "attack": 39, "pass": 36, "block": 28, "shot": 21, "catch": 42},
+        {"level": 80, "HP": 7000, "speed": 66, "endurance": 61, "attack": 39, "pass": 37, "block": 28, "shot": 20, "catch": 42},
         {"level": 90, "HP": 8509, "speed": 66, "endurance": 65, "attack": 41, "pass": 52, "block": 30, "shot": 18, "catch": 52},
-        {"level": 99, "HP": 9988, "speed": 66, "endurance": 68, "attack": 42, "pass": 68, "block": 31, "shot": 17, "catch": 62}
+        {"level": 99, "HP": 9988, "speed": 66, "endurance": 68, "attack": 43, "pass": 68, "block": 31, "shot": 17, "catch": 62}
       ]
     },
     {
@@ -956,7 +956,7 @@
         {"level": 70, "HP": 6017, "speed": 70, "endurance": 49, "attack": 29, "pass": 55, "block": 35, "shot": 15, "catch": 35},
         {"level": 80, "HP": 7577, "speed": 70, "endurance": 48, "attack": 34, "pass": 66, "block": 44, "shot": 17, "catch": 39},
         {"level": 90, "HP": 9313, "speed": 71, "endurance": 45, "attack": 39, "pass": 78, "block": 54, "shot": 19, "catch": 43},
-        {"level": 99, "HP": 9999, "speed": 71, "endurance": 41, "attack": 44, "pass": 89, "block": 69, "shot": 20, "catch": 46}
+        {"level": 99, "HP": 9999, "speed": 71, "endurance": 41, "attack": 44, "pass": 89, "block": 64, "shot": 20, "catch": 46}
       ]
     },
     {
@@ -977,10 +977,10 @@
         {"level": 45, "HP": 2635, "speed": 59, "endurance": 14, "attack": 26, "pass": 22, "block": 28, "shot": 12, "catch": 10},
         {"level": 50, "HP": 3070, "speed": 59, "endurance": 16, "attack": 27, "pass": 25, "block": 31, "shot": 13, "catch": 11},
         {"level": 60, "HP": 4030, "speed": 59, "endurance": 20, "attack": 29, "pass": 31, "block": 37, "shot": 15, "catch": 13},
-        {"level": 70, "HP": 5110, "speed": 59, "endurance": 25, "attack": 31, "pass": 37, "block": 45, "shot": 17, "catch": 17},
-        {"level": 80, "HP": 6310, "speed": 59, "endurance": 31, "attack": 32, "pass": 45, "block": 52, "shot": 19, "catch": 22},
-        {"level": 90, "HP": 7630, "speed": 59, "endurance": 38, "attack": 33, "pass": 52, "block": 61, "shot": 21, "catch": 29},
-        {"level": 99, "HP": 8920, "speed": 59, "endurance": 45, "attack": 34, "pass": 60, "block": 70, "shot": 22, "catch": 32}
+        {"level": 70, "HP": 5110, "speed": 59, "endurance": 25, "attack": 31, "pass": 37, "block": 45, "shot": 17, "catch": 15},
+        {"level": 80, "HP": 6310, "speed": 59, "endurance": 31, "attack": 32, "pass": 45, "block": 52, "shot": 19, "catch": 17},
+        {"level": 90, "HP": 7630, "speed": 59, "endurance": 38, "attack": 33, "pass": 52, "block": 61, "shot": 21, "catch": 19},
+        {"level": 99, "HP": 8920, "speed": 59, "endurance": 45, "attack": 34, "pass": 60, "block": 70, "shot": 22, "catch": 20}
       ]
     },
     {
@@ -1020,15 +1020,15 @@
         {"level": 20, "HP": 1138, "speed": 60, "endurance": 18, "attack": 14, "pass": 14, "block": 13, "shot": 14, "catch": 1},
         {"level": 25, "HP": 1449, "speed": 60, "endurance": 20, "attack": 16, "pass": 18, "block": 15, "shot": 15, "catch": 2},
         {"level": 30, "HP": 1778, "speed": 60, "endurance": 22, "attack": 19, "pass": 21, "block": 16, "shot": 16, "catch": 2},
-        {"level": 35, "HP": 2125, "speed": 60, "endurance": 24, "attack": 22, "pass": 25, "block": 17, "shot": 17, "catch": 2},
-        {"level": 40, "HP": 2490, "speed": 60, "endurance": 27, "attack": 25, "pass": 29, "block": 18, "shot": 18, "catch": 3},
-        {"level": 45, "HP": 2873, "speed": 60, "endurance": 29, "attack": 28, "pass": 33, "block": 19, "shot": 19, "catch": 3},
-        {"level": 50, "HP": 3374, "speed": 60, "endurance": 31, "attack": 30, "pass": 38, "block": 21, "shot": 21, "catch": 4},
-        {"level": 60, "HP": 4130, "speed": 60, "endurance": 36, "attack": 36, "pass": 47, "block": 23, "shot": 23, "catch": 5},
-        {"level": 70, "HP": 5058, "speed": 60, "endurance": 41, "attack": 40, "pass": 57, "block": 25, "shot": 25, "catch": 7},
-        {"level": 80, "HP": 6068, "speed": 60, "endurance": 47, "attack": 45, "pass": 68, "block": 28, "shot": 28, "catch": 9},
-        {"level": 90, "HP": 7130, "speed": 60, "endurance": 52, "attack": 49, "pass": 80, "block": 30, "shot": 30, "catch": 10},
-        {"level": 99, "HP": 8156, "speed": 60, "endurance": 57, "attack": 53, "pass": 91, "block": 32, "shot": 32, "catch": 12}
+        {"level": 35, "HP": 2125, "speed": 60, "endurance": 24, "attack": 22, "pass": 25, "block": 17, "shot": 16, "catch": 2},
+        {"level": 40, "HP": 2490, "speed": 60, "endurance": 27, "attack": 25, "pass": 29, "block": 18, "shot": 11, "catch": 3},
+        {"level": 45, "HP": 2873, "speed": 60, "endurance": 29, "attack": 28, "pass": 33, "block": 19, "shot": 17, "catch": 3},
+        {"level": 50, "HP": 3374, "speed": 60, "endurance": 31, "attack": 30, "pass": 38, "block": 21, "shot": 17, "catch": 4},
+        {"level": 60, "HP": 4130, "speed": 60, "endurance": 36, "attack": 36, "pass": 47, "block": 23, "shot": 17, "catch": 5},
+        {"level": 70, "HP": 5058, "speed": 60, "endurance": 40, "attack": 40, "pass": 57, "block": 25, "shot": 16, "catch": 7},
+        {"level": 80, "HP": 6068, "speed": 60, "endurance": 45, "attack": 45, "pass": 68, "block": 28, "shot": 14, "catch": 9},
+        {"level": 90, "HP": 7130, "speed": 60, "endurance": 49, "attack": 49, "pass": 80, "block": 30, "shot": 12, "catch": 10},
+        {"level": 99, "HP": 8156, "speed": 60, "endurance": 53, "attack": 53, "pass": 91, "block": 32, "shot": 10, "catch": 12}
       ]
     },
     {
@@ -1049,10 +1049,10 @@
         {"level": 45, "HP": 2859, "speed": 60, "endurance": 15, "attack": 13, "pass": 21, "block": 6, "shot": 10, "catch": 24},
         {"level": 50, "HP": 3347, "speed": 60, "endurance": 16, "attack": 16, "pass": 25, "block": 7, "shot": 11, "catch": 25},
         {"level": 60, "HP": 4429, "speed": 60, "endurance": 18, "attack": 22, "pass": 33, "block": 8, "shot": 13, "catch": 28},
-        {"level": 70, "HP": 6020, "speed": 60, "endurance": 24, "attack": 30, "pass": 44, "block": 10, "shot": 15, "catch": 31},
-        {"level": 80, "HP": 7829, "speed": 60, "endurance": 28, "attack": 39, "pass": 56, "block": 12, "shot": 17, "catch": 34},
-        {"level": 90, "HP": 8529, "speed": 60, "endurance": 30, "attack": 42, "pass": 69, "block": 14, "shot": 19, "catch": 38},
-        {"level": 99, "HP": 9999, "speed": 60, "endurance": 29, "attack": 59, "pass": 83, "block": 16, "shot": 21, "catch": 41}
+        {"level": 70, "HP": 6020, "speed": 60, "endurance": 21, "attack": 30, "pass": 44, "block": 10, "shot": 15, "catch": 31},
+        {"level": 80, "HP": 7829, "speed": 60, "endurance": 24, "attack": 39, "pass": 56, "block": 12, "shot": 17, "catch": 34},
+        {"level": 90, "HP": 8529, "speed": 60, "endurance": 26, "attack": 49, "pass": 69, "block": 14, "shot": 19, "catch": 38},
+        {"level": 99, "HP": 9999, "speed": 60, "endurance": 29, "attack": 59, "pass": 83, "block": 16, "shot": 20, "catch": 41}
       ]
     },
     {
@@ -1061,22 +1061,22 @@
       "starting_team": "Free Agent",
       "key_techniques": ["Venom Tackle", "Wither Pass", "Tackle Slip"],
       "stats": [
-        {"level": 1, "HP": 100, "speed": 60, "endurance": 10, "attack": 8, "pass": 8, "block": 15, "shot": 14, "catch": 4},
+        {"level": 1, "HP": 100, "speed": 60, "endurance": 10, "attack": 10, "pass": 8, "block": 15, "shot": 14, "catch": 4},
         {"level": 5, "HP": 235, "speed": 60, "endurance": 12, "attack": 10, "pass": 10, "block": 15, "shot": 15, "catch": 4},
-        {"level": 10, "HP": 430, "speed": 60, "endurance": 14, "attack": 12, "pass": 12, "block": 15, "shot": 17, "catch": 4},
-        {"level": 15, "HP": 655, "speed": 60, "endurance": 17, "attack": 15, "pass": 15, "block": 15, "shot": 19, "catch": 5},
-        {"level": 20, "HP": 910, "speed": 60, "endurance": 20, "attack": 17, "pass": 17, "block": 16, "shot": 21, "catch": 5},
-        {"level": 25, "HP": 1196, "speed": 60, "endurance": 23, "attack": 20, "pass": 20, "block": 16, "shot": 24, "catch": 5},
-        {"level": 30, "HP": 1510, "speed": 60, "endurance": 26, "attack": 24, "pass": 24, "block": 17, "shot": 27, "catch": 6},
-        {"level": 35, "HP": 1855, "speed": 60, "endurance": 30, "attack": 27, "pass": 27, "block": 17, "shot": 30, "catch": 6},
-        {"level": 40, "HP": 2230, "speed": 60, "endurance": 33, "attack": 31, "pass": 31, "block": 18, "shot": 34, "catch": 6},
-        {"level": 45, "HP": 2635, "speed": 60, "endurance": 37, "attack": 35, "pass": 35, "block": 19, "shot": 38, "catch": 7},
-        {"level": 50, "HP": 3070, "speed": 60, "endurance": 41, "attack": 39, "pass": 39, "block": 21, "shot": 42, "catch": 8},
-        {"level": 60, "HP": 4030, "speed": 60, "endurance": 49, "attack": 49, "pass": 49, "block": 23, "shot": 50, "catch": 10},
-        {"level": 70, "HP": 5110, "speed": 60, "endurance": 57, "attack": 57, "pass": 57, "block": 26, "shot": 59, "catch": 12},
-        {"level": 80, "HP": 6310, "speed": 60, "endurance": 65, "attack": 65, "pass": 65, "block": 30, "shot": 69, "catch": 13},
-        {"level": 90, "HP": 7630, "speed": 60, "endurance": 76, "attack": 76, "pass": 76, "block": 36, "shot": 76, "catch": 15},
-        {"level": 99, "HP": 8920, "speed": 60, "endurance": 85, "attack": 85, "pass": 85, "block": 39, "shot": 81, "catch": 15}
+        {"level": 10, "HP": 430, "speed": 60, "endurance": 14, "attack": 10, "pass": 12, "block": 15, "shot": 17, "catch": 4},
+        {"level": 15, "HP": 655, "speed": 60, "endurance": 17, "attack": 10, "pass": 15, "block": 15, "shot": 19, "catch": 4},
+        {"level": 20, "HP": 910, "speed": 60, "endurance": 20, "attack": 11, "pass": 17, "block": 16, "shot": 21, "catch": 4},
+        {"level": 25, "HP": 1196, "speed": 60, "endurance": 23, "attack": 12, "pass": 20, "block": 16, "shot": 24, "catch": 5},
+        {"level": 30, "HP": 1510, "speed": 60, "endurance": 26, "attack": 12, "pass": 24, "block": 17, "shot": 27, "catch": 5},
+        {"level": 35, "HP": 1855, "speed": 60, "endurance": 30, "attack": 14, "pass": 27, "block": 17, "shot": 30, "catch": 5},
+        {"level": 40, "HP": 2230, "speed": 60, "endurance": 33, "attack": 15, "pass": 31, "block": 18, "shot": 34, "catch": 6},
+        {"level": 45, "HP": 2635, "speed": 60, "endurance": 37, "attack": 16, "pass": 35, "block": 19, "shot": 38, "catch": 6},
+        {"level": 50, "HP": 3070, "speed": 60, "endurance": 41, "attack": 18, "pass": 39, "block": 21, "shot": 42, "catch": 7},
+        {"level": 60, "HP": 4030, "speed": 60, "endurance": 49, "attack": 21, "pass": 49, "block": 23, "shot": 50, "catch": 8},
+        {"level": 70, "HP": 5110, "speed": 60, "endurance": 57, "attack": 26, "pass": 57, "block": 26, "shot": 59, "catch": 10},
+        {"level": 80, "HP": 6310, "speed": 60, "endurance": 66, "attack": 31, "pass": 65, "block": 30, "shot": 69, "catch": 12},
+        {"level": 90, "HP": 7630, "speed": 60, "endurance": 76, "attack": 36, "pass": 76, "block": 36, "shot": 76, "catch": 13},
+        {"level": 99, "HP": 8920, "speed": 60, "endurance": 85, "attack": 42, "pass": 85, "block": 39, "shot": 81, "catch": 15}
       ]
     },
     {
@@ -1087,20 +1087,20 @@
       "stats": [
         {"level": 1, "HP": 230, "speed": 52, "endurance": 12, "attack": 7, "pass": 7, "block": 7, "shot": 11, "catch": 1},
         {"level": 5, "HP": 547, "speed": 52, "endurance": 14, "attack": 7, "pass": 10, "block": 13, "shot": 13, "catch": 1},
-        {"level": 10, "HP": 936, "speed": 52, "endurance": 16, "attack": 7, "pass": 13, "block": 18, "shot": 15, "catch": 2},
+        {"level": 10, "HP": 936, "speed": 52, "endurance": 16, "attack": 7, "pass": 13, "block": 18, "shot": 15, "catch": 1},
         {"level": 15, "HP": 1317, "speed": 52, "endurance": 18, "attack": 8, "pass": 17, "block": 21, "shot": 17, "catch": 2},
-        {"level": 20, "HP": 1691, "speed": 53, "endurance": 20, "attack": 9, "pass": 20, "block": 24, "shot": 19, "catch": 3},
-        {"level": 25, "HP": 2057, "speed": 53, "endurance": 23, "attack": 10, "pass": 23, "block": 27, "shot": 21, "catch": 4},
-        {"level": 30, "HP": 2416, "speed": 53, "endurance": 25, "attack": 12, "pass": 25, "block": 29, "shot": 22, "catch": 5},
-        {"level": 35, "HP": 2767, "speed": 54, "endurance": 28, "attack": 14, "pass": 28, "block": 31, "shot": 24, "catch": 6},
-        {"level": 40, "HP": 3111, "speed": 54, "endurance": 31, "attack": 16, "pass": 30, "block": 34, "shot": 26, "catch": 7},
-        {"level": 45, "HP": 3448, "speed": 54, "endurance": 35, "attack": 18, "pass": 33, "block": 36, "shot": 28, "catch": 8},
-        {"level": 50, "HP": 3725, "speed": 55, "endurance": 38, "attack": 20, "pass": 36, "block": 39, "shot": 29, "catch": 9},
-        {"level": 60, "HP": 4430, "speed": 55, "endurance": 45, "attack": 23, "pass": 41, "block": 45, "shot": 32, "catch": 11},
-        {"level": 70, "HP": 5140, "speed": 55, "endurance": 53, "attack": 26, "pass": 46, "block": 52, "shot": 34, "catch": 14},
-        {"level": 80, "HP": 5855, "speed": 55, "endurance": 62, "attack": 29, "pass": 51, "block": 58, "shot": 36, "catch": 17},
-        {"level": 90, "HP": 6580, "speed": 56, "endurance": 72, "attack": 32, "pass": 56, "block": 63, "shot": 38, "catch": 20},
-        {"level": 99, "HP": 7330, "speed": 56, "endurance": 82, "attack": 35, "pass": 62, "block": 70, "shot": 39, "catch": 23}
+        {"level": 20, "HP": 1691, "speed": 53, "endurance": 20, "attack": 9, "pass": 20, "block": 24, "shot": 19, "catch": 2},
+        {"level": 25, "HP": 2057, "speed": 53, "endurance": 23, "attack": 10, "pass": 23, "block": 27, "shot": 21, "catch": 3},
+        {"level": 30, "HP": 2416, "speed": 53, "endurance": 25, "attack": 12, "pass": 26, "block": 29, "shot": 22, "catch": 3},
+        {"level": 35, "HP": 2767, "speed": 54, "endurance": 28, "attack": 14, "pass": 28, "block": 31, "shot": 24, "catch": 4},
+        {"level": 40, "HP": 3111, "speed": 54, "endurance": 31, "attack": 16, "pass": 31, "block": 33, "shot": 25, "catch": 5},
+        {"level": 45, "HP": 3447, "speed": 54, "endurance": 34, "attack": 19, "pass": 34, "block": 35, "shot": 27, "catch": 5},
+        {"level": 50, "HP": 3776, "speed": 55, "endurance": 37, "attack": 22, "pass": 36, "block": 36, "shot": 28, "catch": 6},
+        {"level": 60, "HP": 4411, "speed": 55, "endurance": 43, "attack": 28, "pass": 41, "block": 40, "shot": 30, "catch": 7},
+        {"level": 70, "HP": 5016, "speed": 55, "endurance": 50, "attack": 36, "pass": 45, "block": 43, "shot": 32, "catch": 9},
+        {"level": 80, "HP": 5591, "speed": 55, "endurance": 58, "attack": 45, "pass": 48, "block": 45, "shot": 34, "catch": 10},
+        {"level": 90, "HP": 6136, "speed": 57, "endurance": 65, "attack": 55, "pass": 52, "block": 48, "shot": 35, "catch": 12},
+        {"level": 99, "HP": 6600, "speed": 57, "endurance": 73, "attack": 65, "pass": 54, "block": 50, "shot": 35, "catch": 13}
       ]
     },
     {
@@ -1109,21 +1109,21 @@
       "starting_team": "Free Agent",
       "key_techniques": ["Venom Pass", "Wither Shot", "Anti-Nap"],
       "stats": [
-        {"level": 5, "HP": 215, "speed": 65, "endurance": 10, "attack": 14, "pass": 14, "block": 6, "shot": 5, "catch": 1},
-        {"level": 10, "HP": 400, "speed": 65, "endurance": 13, "attack": 18, "pass": 18, "block": 9, "shot": 6, "catch": 1},
-        {"level": 15, "HP": 625, "speed": 66, "endurance": 16, "attack": 22, "pass": 22, "block": 11, "shot": 8, "catch": 2},
-        {"level": 20, "HP": 890, "speed": 67, "endurance": 19, "attack": 26, "pass": 26, "block": 14, "shot": 10, "catch": 2},
-        {"level": 25, "HP": 1195, "speed": 67, "endurance": 23, "attack": 29, "pass": 29, "block": 16, "shot": 12, "catch": 3},
-        {"level": 30, "HP": 1540, "speed": 67, "endurance": 26, "attack": 33, "pass": 33, "block": 19, "shot": 13, "catch": 3},
-        {"level": 35, "HP": 1925, "speed": 69, "endurance": 29, "attack": 36, "pass": 36, "block": 21, "shot": 21, "catch": 4},
-        {"level": 40, "HP": 2350, "speed": 69, "endurance": 33, "attack": 39, "pass": 39, "block": 24, "shot": 24, "catch": 5},
-        {"level": 45, "HP": 2815, "speed": 69, "endurance": 37, "attack": 42, "pass": 42, "block": 26, "shot": 26, "catch": 5},
-        {"level": 50, "HP": 3320, "speed": 69, "endurance": 41, "attack": 46, "pass": 46, "block": 29, "shot": 29, "catch": 6},
-        {"level": 60, "HP": 4450, "speed": 69, "endurance": 46, "attack": 56, "pass": 56, "block": 34, "shot": 34, "catch": 7},
-        {"level": 70, "HP": 5740, "speed": 70, "endurance": 56, "attack": 65, "pass": 65, "block": 39, "shot": 39, "catch": 9},
-        {"level": 80, "HP": 7190, "speed": 71, "endurance": 65, "attack": 73, "pass": 73, "block": 44, "shot": 44, "catch": 10},
-        {"level": 90, "HP": 8800, "speed": 71, "endurance": 71, "attack": 80, "pass": 80, "block": 48, "shot": 48, "catch": 11},
-        {"level": 99, "HP": 9999, "speed": 71, "endurance": 82, "attack": 82, "pass": 82, "block": 53, "shot": 53, "catch": 11}
+        {"level": 5, "HP": 215, "speed": 65, "endurance": 10, "attack": 6, "pass": 14, "block": 6, "shot": 5, "catch": 1},
+        {"level": 10, "HP": 400, "speed": 65, "endurance": 13, "attack": 7, "pass": 18, "block": 9, "shot": 7, "catch": 1},
+        {"level": 15, "HP": 625, "speed": 66, "endurance": 16, "attack": 8, "pass": 22, "block": 11, "shot": 8, "catch": 2},
+        {"level": 20, "HP": 890, "speed": 67, "endurance": 19, "attack": 10, "pass": 26, "block": 14, "shot": 10, "catch": 2},
+        {"level": 25, "HP": 1195, "speed": 67, "endurance": 23, "attack": 12, "pass": 29, "block": 16, "shot": 12, "catch": 2},
+        {"level": 30, "HP": 1540, "speed": 67, "endurance": 26, "attack": 13, "pass": 33, "block": 19, "shot": 14, "catch": 3},
+        {"level": 35, "HP": 1925, "speed": 69, "endurance": 29, "attack": 15, "pass": 36, "block": 21, "shot": 16, "catch": 3},
+        {"level": 40, "HP": 2350, "speed": 69, "endurance": 33, "attack": 17, "pass": 39, "block": 24, "shot": 18, "catch": 4},
+        {"level": 45, "HP": 2815, "speed": 69, "endurance": 37, "attack": 19, "pass": 42, "block": 26, "shot": 20, "catch": 4},
+        {"level": 50, "HP": 3320, "speed": 69, "endurance": 41, "attack": 21, "pass": 46, "block": 29, "shot": 22, "catch": 5},
+        {"level": 60, "HP": 4450, "speed": 69, "endurance": 48, "attack": 26, "pass": 51, "block": 34, "shot": 27, "catch": 6},
+        {"level": 70, "HP": 5740, "speed": 70, "endurance": 56, "attack": 30, "pass": 57, "block": 39, "shot": 32, "catch": 7},
+        {"level": 80, "HP": 7190, "speed": 71, "endurance": 65, "attack": 36, "pass": 62, "block": 44, "shot": 37, "catch": 9},
+        {"level": 90, "HP": 8800, "speed": 71, "endurance": 73, "attack": 41, "pass": 66, "block": 49, "shot": 43, "catch": 10},
+        {"level": 99, "HP": 9999, "speed": 71, "endurance": 82, "attack": 47, "pass": 70, "block": 53, "shot": 48, "catch": 11}
       ]
     },
     {
@@ -1138,16 +1138,16 @@
         {"level": 15, "HP": 655, "speed": 60, "endurance": 9, "attack": 3, "pass": 5, "block": 15, "shot": 1, "catch": 19},
         {"level": 20, "HP": 910, "speed": 60, "endurance": 9, "attack": 3, "pass": 5, "block": 17, "shot": 1, "catch": 22},
         {"level": 25, "HP": 1195, "speed": 60, "endurance": 10, "attack": 4, "pass": 6, "block": 19, "shot": 2, "catch": 24},
-        {"level": 30, "HP": 1510, "speed": 60, "endurance": 10, "attack": 5, "pass": 7, "block": 20, "shot": 2, "catch": 25},
+        {"level": 30, "HP": 1510, "speed": 60, "endurance": 10, "attack": 5, "pass": 6, "block": 20, "shot": 2, "catch": 25},
         {"level": 35, "HP": 1855, "speed": 60, "endurance": 11, "attack": 5, "pass": 7, "block": 21, "shot": 2, "catch": 27},
         {"level": 40, "HP": 2230, "speed": 60, "endurance": 12, "attack": 6, "pass": 8, "block": 22, "shot": 2, "catch": 28},
         {"level": 45, "HP": 2635, "speed": 60, "endurance": 13, "attack": 7, "pass": 9, "block": 24, "shot": 2, "catch": 29},
         {"level": 50, "HP": 3070, "speed": 60, "endurance": 14, "attack": 8, "pass": 10, "block": 25, "shot": 3, "catch": 30},
         {"level": 60, "HP": 4030, "speed": 60, "endurance": 16, "attack": 11, "pass": 12, "block": 27, "shot": 3, "catch": 30},
-        {"level": 70, "HP": 5110, "speed": 60, "endurance": 18, "attack": 14, "pass": 17, "block": 29, "shot": 3, "catch": 27},
-        {"level": 80, "HP": 6310, "speed": 60, "endurance": 21, "attack": 17, "pass": 21, "block": 30, "shot": 27, "catch": 27},
-        {"level": 90, "HP": 7360, "speed": 60, "endurance": 25, "attack": 21, "pass": 25, "block": 32, "shot": 27, "catch": 24},
-        {"level": 99, "HP": 8920, "speed": 60, "endurance": 28, "attack": 25, "pass": 27, "block": 33, "shot": 24, "catch": 24}
+        {"level": 70, "HP": 5110, "speed": 60, "endurance": 18, "attack": 14, "pass": 14, "block": 29, "shot": 3, "catch": 30},
+        {"level": 80, "HP": 6310, "speed": 60, "endurance": 21, "attack": 17, "pass": 17, "block": 30, "shot": 4, "catch": 29},
+        {"level": 90, "HP": 7360, "speed": 60, "endurance": 25, "attack": 21, "pass": 21, "block": 32, "shot": 4, "catch": 27},
+        {"level": 99, "HP": 8920, "speed": 60, "endurance": 28, "attack": 25, "pass": 24, "block": 33, "shot": 4, "catch": 24}
       ]
     },
     {
@@ -1167,10 +1167,10 @@
         {"level": 40, "HP": 2230, "speed": 34, "endurance": 43, "attack": 11, "pass": 15, "block": 6, "shot": 32, "catch": 5},
         {"level": 45, "HP": 2635, "speed": 38, "endurance": 46, "attack": 12, "pass": 16, "block": 6, "shot": 35, "catch": 5},
         {"level": 50, "HP": 3070, "speed": 45, "endurance": 49, "attack": 13, "pass": 18, "block": 7, "shot": 38, "catch": 6},
-        {"level": 60, "HP": 4030, "speed": 76, "endurance": 55, "attack": 15, "pass": 21, "block": 8, "shot": 45, "catch": 9},
-        {"level": 70, "HP": 5110, "speed": 99, "endurance": 64, "attack": 18, "pass": 24, "block": 10, "shot": 52, "catch": 11},
-        {"level": 80, "HP": 6310, "speed": 99, "endurance": 68, "attack": 20, "pass": 27, "block": 11, "shot": 59, "catch": 12},
-        {"level": 90, "HP": 7630, "speed": 99, "endurance": 71, "attack": 22, "pass": 30, "block": 11, "shot": 67, "catch": 14},
+        {"level": 60, "HP": 4030, "speed": 76, "endurance": 55, "attack": 15, "pass": 21, "block": 8, "shot": 45, "catch": 7},
+        {"level": 70, "HP": 5110, "speed": 99, "endurance": 60, "attack": 18, "pass": 24, "block": 10, "shot": 52, "catch": 9},
+        {"level": 80, "HP": 6310, "speed": 99, "endurance": 64, "attack": 20, "pass": 27, "block": 11, "shot": 59, "catch": 11},
+        {"level": 90, "HP": 7630, "speed": 99, "endurance": 68, "attack": 22, "pass": 30, "block": 11, "shot": 67, "catch": 12},
         {"level": 99, "HP": 8920, "speed": 99, "endurance": 71, "attack": 24, "pass": 33, "block": 11, "shot": 74, "catch": 14}
       ]
     },
@@ -1186,16 +1186,16 @@
         {"level": 15, "HP": 679, "speed": 73, "endurance": 10, "attack": 15, "pass": 18, "block": 15, "shot": 6, "catch": 4},
         {"level": 20, "HP": 954, "speed": 73, "endurance": 12, "attack": 19, "pass": 21, "block": 17, "shot": 6, "catch": 5},
         {"level": 25, "HP": 1264, "speed": 73, "endurance": 14, "attack": 21, "pass": 23, "block": 18, "shot": 7, "catch": 6},
-        {"level": 30, "HP": 1609, "speed": 74, "endurance": 15, "attack": 24, "pass": 26, "block": 20, "shot": 8, "catch": 8},
-        {"level": 35, "HP": 1990, "speed": 74, "endurance": 17, "attack": 26, "pass": 29, "block": 22, "shot": 9, "catch": 9},
+        {"level": 30, "HP": 1609, "speed": 74, "endurance": 15, "attack": 24, "pass": 26, "block": 20, "shot": 8, "catch": 7},
+        {"level": 35, "HP": 1990, "speed": 74, "endurance": 17, "attack": 26, "pass": 29, "block": 22, "shot": 9, "catch": 8},
         {"level": 40, "HP": 2407, "speed": 74, "endurance": 19, "attack": 29, "pass": 32, "block": 24, "shot": 10, "catch": 9},
         {"level": 45, "HP": 2859, "speed": 74, "endurance": 21, "attack": 30, "pass": 36, "block": 27, "shot": 11, "catch": 10},
         {"level": 50, "HP": 3347, "speed": 75, "endurance": 23, "attack": 32, "pass": 39, "block": 29, "shot": 12, "catch": 11},
         {"level": 60, "HP": 4429, "speed": 75, "endurance": 27, "attack": 35, "pass": 46, "block": 34, "shot": 14, "catch": 13},
-        {"level": 70, "HP": 5659, "speed": 76, "endurance": 31, "attack": 36, "pass": 54, "block": 40, "shot": 20, "catch": 15},
-        {"level": 80, "HP": 7020, "speed": 76, "endurance": 36, "attack": 37, "pass": 63, "block": 47, "shot": 22, "catch": 17},
-        {"level": 90, "HP": 8529, "speed": 77, "endurance": 41, "attack": 36, "pass": 72, "block": 54, "shot": 25, "catch": 19},
-        {"level": 99, "HP": 9999, "speed": 77, "endurance": 45, "attack": 36, "pass": 81, "block": 61, "shot": 25, "catch": 20}
+        {"level": 70, "HP": 5659, "speed": 76, "endurance": 31, "attack": 36, "pass": 54, "block": 40, "shot": 17, "catch": 15},
+        {"level": 80, "HP": 7020, "speed": 76, "endurance": 36, "attack": 37, "pass": 63, "block": 47, "shot": 20, "catch": 17},
+        {"level": 90, "HP": 8529, "speed": 77, "endurance": 41, "attack": 36, "pass": 72, "block": 54, "shot": 22, "catch": 19},
+        {"level": 99, "HP": 9999, "speed": 77, "endurance": 45, "attack": 35, "pass": 81, "block": 61, "shot": 25, "catch": 20}
       ]
     },
     {
@@ -1206,20 +1206,20 @@
       "stats": [
         {"level": 1, "HP": 80, "speed": 57, "endurance": 10, "attack": 5, "pass": 3, "block": 2, "shot": 11, "catch": 1},
         {"level": 5, "HP": 217, "speed": 57, "endurance": 14, "attack": 6, "pass": 3, "block": 3, "shot": 11, "catch": 2},
-        {"level": 10, "HP": 421, "speed": 57, "endurance": 18, "attack": 8, "pass": 5, "block": 5, "shot": 16, "catch": 3},
-        {"level": 15, "HP": 659, "speed": 57, "endurance": 23, "attack": 10, "pass": 7, "block": 7, "shot": 21, "catch": 4},
-        {"level": 20, "HP": 934, "speed": 57, "endurance": 27, "attack": 11, "pass": 9, "block": 9, "shot": 27, "catch": 5},
-        {"level": 25, "HP": 1244, "speed": 57, "endurance": 31, "attack": 13, "pass": 10, "block": 10, "shot": 32, "catch": 6},
-        {"level": 30, "HP": 1589, "speed": 57, "endurance": 35, "attack": 15, "pass": 12, "block": 12, "shot": 37, "catch": 7},
-        {"level": 35, "HP": 1970, "speed": 57, "endurance": 39, "attack": 16, "pass": 13, "block": 13, "shot": 42, "catch": 8},
-        {"level": 40, "HP": 2387, "speed": 57, "endurance": 43, "attack": 18, "pass": 14, "block": 14, "shot": 48, "catch": 9},
-        {"level": 45, "HP": 2839, "speed": 57, "endurance": 47, "attack": 20, "pass": 15, "block": 15, "shot": 53, "catch": 10},
-        {"level": 50, "HP": 3327, "speed": 57, "endurance": 50, "attack": 22, "pass": 17, "block": 17, "shot": 60, "catch": 11},
-        {"level": 60, "HP": 4409, "speed": 57, "endurance": 57, "attack": 25, "pass": 20, "block": 20, "shot": 69, "catch": 13},
-        {"level": 70, "HP": 5633, "speed": 57, "endurance": 64, "attack": 28, "pass": 23, "block": 22, "shot": 79, "catch": 14},
-        {"level": 80, "HP": 7000, "speed": 57, "endurance": 71, "attack": 32, "pass": 25, "block": 24, "shot": 90, "catch": 15},
-        {"level": 90, "HP": 8509, "speed": 57, "endurance": 77, "attack": 36, "pass": 28, "block": 26, "shot": 98, "catch": 17},
-        {"level": 99, "HP": 9966, "speed": 57, "endurance": 82, "attack": 38, "pass": 30, "block": 27, "shot": 104, "catch": 20}
+        {"level": 10, "HP": 421, "speed": 57, "endurance": 18, "attack": 8, "pass": 3, "block": 5, "shot": 11, "catch": 3},
+        {"level": 15, "HP": 659, "speed": 57, "endurance": 23, "attack": 10, "pass": 3, "block": 7, "shot": 12, "catch": 4},
+        {"level": 20, "HP": 934, "speed": 57, "endurance": 27, "attack": 11, "pass": 3, "block": 9, "shot": 13, "catch": 5},
+        {"level": 25, "HP": 1244, "speed": 57, "endurance": 31, "attack": 13, "pass": 3, "block": 10, "shot": 14, "catch": 6},
+        {"level": 30, "HP": 1589, "speed": 57, "endurance": 35, "attack": 15, "pass": 4, "block": 12, "shot": 16, "catch": 7},
+        {"level": 35, "HP": 1970, "speed": 57, "endurance": 39, "attack": 16, "pass": 5, "block": 13, "shot": 18, "catch": 8},
+        {"level": 40, "HP": 2387, "speed": 57, "endurance": 43, "attack": 18, "pass": 6, "block": 14, "shot": 20, "catch": 9},
+        {"level": 45, "HP": 2839, "speed": 57, "endurance": 47, "attack": 20, "pass": 7, "block": 15, "shot": 23, "catch": 10},
+        {"level": 50, "HP": 3327, "speed": 57, "endurance": 50, "attack": 22, "pass": 9, "block": 17, "shot": 26, "catch": 11},
+        {"level": 60, "HP": 4409, "speed": 57, "endurance": 57, "attack": 25, "pass": 13, "block": 18, "shot": 32, "catch": 13},
+        {"level": 70, "HP": 5633, "speed": 57, "endurance": 64, "attack": 28, "pass": 20, "block": 20, "shot": 40, "catch": 15},
+        {"level": 80, "HP": 7000, "speed": 57, "endurance": 71, "attack": 32, "pass": 28, "block": 21, "shot": 49, "catch": 17},
+        {"level": 90, "HP": 8509, "speed": 57, "endurance": 77, "attack": 35, "pass": 39, "block": 21, "shot": 59, "catch": 19},
+        {"level": 99, "HP": 9988, "speed": 57, "endurance": 82, "attack": 38, "pass": 51, "block": 21, "shot": 69, "catch": 20}
       ]
     },
     {
@@ -1228,22 +1228,22 @@
       "starting_team": "Free Agent",
       "key_techniques": ["Wither Tackle", "Venom Shot", "Anti-Wither"],
       "stats": [
-        {"level": 4, "HP": 201, "speed": 60, "endurance": 11, "attack": 9, "pass": 10, "block": 10, "shot": 14, "catch": 3},
-        {"level": 5, "HP": 237, "speed": 60, "endurance": 12, "attack": 9, "pass": 10, "block": 10, "shot": 15, "catch": 3},
-        {"level": 10, "HP": 441, "speed": 60, "endurance": 14, "attack": 10, "pass": 13, "block": 13, "shot": 18, "catch": 3},
-        {"level": 15, "HP": 679, "speed": 60, "endurance": 17, "attack": 10, "pass": 15, "block": 15, "shot": 21, "catch": 4},
-        {"level": 20, "HP": 954, "speed": 60, "endurance": 20, "attack": 12, "pass": 17, "block": 17, "shot": 24, "catch": 4},
-        {"level": 25, "HP": 1284, "speed": 60, "endurance": 23, "attack": 13, "pass": 20, "block": 19, "shot": 28, "catch": 5},
-        {"level": 30, "HP": 1609, "speed": 60, "endurance": 26, "attack": 15, "pass": 23, "block": 20, "shot": 31, "catch": 6},
-        {"level": 35, "HP": 1990, "speed": 60, "endurance": 29, "attack": 17, "pass": 26, "block": 21, "shot": 35, "catch": 6},
-        {"level": 40, "HP": 2407, "speed": 60, "endurance": 32, "attack": 20, "pass": 29, "block": 22, "shot": 39, "catch": 7},
-        {"level": 45, "HP": 2859, "speed": 60, "endurance": 36, "attack": 22, "pass": 32, "block": 23, "shot": 43, "catch": 7},
-        {"level": 50, "HP": 3347, "speed": 60, "endurance": 40, "attack": 25, "pass": 36, "block": 25, "shot": 47, "catch": 8},
-        {"level": 60, "HP": 4429, "speed": 60, "endurance": 47, "attack": 31, "pass": 47, "block": 28, "shot": 55, "catch": 9},
-        {"level": 70, "HP": 5853, "speed": 60, "endurance": 58, "attack": 38, "pass": 58, "block": 32, "shot": 63, "catch": 11},
-        {"level": 80, "HP": 7020, "speed": 60, "endurance": 65, "attack": 43, "pass": 65, "block": 36, "shot": 72, "catch": 12},
-        {"level": 90, "HP": 8529, "speed": 60, "endurance": 74, "attack": 50, "pass": 74, "block": 40, "shot": 83, "catch": 14},
-        {"level": 99, "HP": 9999, "speed": 60, "endurance": 83, "attack": 55, "pass": 83, "block": 43, "shot": 91, "catch": 15}
+        {"level": 4, "HP": 201, "speed": 60, "endurance": 11, "attack": 9, "pass": 4, "block": 10, "shot": 14, "catch": 3},
+        {"level": 5, "HP": 237, "speed": 60, "endurance": 12, "attack": 9, "pass": 5, "block": 10, "shot": 15, "catch": 3},
+        {"level": 10, "HP": 441, "speed": 60, "endurance": 14, "attack": 9, "pass": 6, "block": 13, "shot": 18, "catch": 3},
+        {"level": 15, "HP": 679, "speed": 60, "endurance": 17, "attack": 9, "pass": 7, "block": 15, "shot": 21, "catch": 4},
+        {"level": 20, "HP": 954, "speed": 60, "endurance": 20, "attack": 9, "pass": 8, "block": 17, "shot": 24, "catch": 4},
+        {"level": 25, "HP": 1284, "speed": 60, "endurance": 23, "attack": 9, "pass": 10, "block": 19, "shot": 28, "catch": 5},
+        {"level": 30, "HP": 1609, "speed": 60, "endurance": 26, "attack": 10, "pass": 11, "block": 20, "shot": 31, "catch": 6},
+        {"level": 35, "HP": 1990, "speed": 60, "endurance": 29, "attack": 10, "pass": 13, "block": 21, "shot": 35, "catch": 6},
+        {"level": 40, "HP": 2407, "speed": 60, "endurance": 32, "attack": 11, "pass": 15, "block": 22, "shot": 39, "catch": 7},
+        {"level": 45, "HP": 2859, "speed": 60, "endurance": 36, "attack": 12, "pass": 17, "block": 24, "shot": 43, "catch": 7},
+        {"level": 50, "HP": 3347, "speed": 60, "endurance": 40, "attack": 12, "pass": 19, "block": 25, "shot": 47, "catch": 8},
+        {"level": 60, "HP": 4429, "speed": 60, "endurance": 47, "attack": 14, "pass": 23, "block": 27, "shot": 55, "catch": 9},
+        {"level": 70, "HP": 5853, "speed": 60, "endurance": 58, "attack": 16, "pass": 27, "block": 29, "shot": 63, "catch": 11},
+        {"level": 80, "HP": 7020, "speed": 60, "endurance": 65, "attack": 18, "pass": 32, "block": 30, "shot": 72, "catch": 12},
+        {"level": 90, "HP": 8529, "speed": 60, "endurance": 74, "attack": 21, "pass": 38, "block": 32, "shot": 83, "catch": 14},
+        {"level": 99, "HP": 9999, "speed": 60, "endurance": 83, "attack": 23, "pass": 43, "block": 33, "shot": 91, "catch": 15}
       ]
     },
     {
@@ -1278,8 +1278,8 @@
       "stats": [
         {"level": 1, "HP": 100, "speed": 60, "endurance": 15, "attack": 14, "pass": 2, "block": 2, "shot": 4, "catch": 11},
         {"level": 5, "HP": 307, "speed": 60, "endurance": 17, "attack": 14, "pass": 2, "block": 2, "shot": 4, "catch": 13},
-        {"level": 10, "HP": 580, "speed": 60, "endurance": 19, "attack": 14, "pass": 2, "block": 3, "shot": 5, "catch": 16},
-        {"level": 15, "HP": 867, "speed": 60, "endurance": 21, "attack": 15, "pass": 2, "block": 3, "shot": 5, "catch": 19},
+        {"level": 10, "HP": 580, "speed": 60, "endurance": 19, "attack": 14, "pass": 2, "block": 2, "shot": 5, "catch": 16},
+        {"level": 15, "HP": 867, "speed": 60, "endurance": 21, "attack": 15, "pass": 2, "block": 2, "shot": 5, "catch": 19},
         {"level": 20, "HP": 1170, "speed": 61, "endurance": 23, "attack": 16, "pass": 3, "block": 3, "shot": 6, "catch": 21},
         {"level": 25, "HP": 1487, "speed": 61, "endurance": 26, "attack": 17, "pass": 4, "block": 3, "shot": 6, "catch": 23},
         {"level": 30, "HP": 1820, "speed": 61, "endurance": 28, "attack": 18, "pass": 4, "block": 3, "shot": 7, "catch": 25},
@@ -1288,8 +1288,8 @@
         {"level": 45, "HP": 2907, "speed": 62, "endurance": 37, "attack": 24, "pass": 6, "block": 4, "shot": 8, "catch": 31},
         {"level": 50, "HP": 3300, "speed": 63, "endurance": 40, "attack": 26, "pass": 7, "block": 4, "shot": 9, "catch": 32},
         {"level": 60, "HP": 4130, "speed": 63, "endurance": 46, "attack": 32, "pass": 8, "block": 5, "shot": 10, "catch": 34},
-        {"level": 70, "HP": 5020, "speed": 64, "endurance": 52, "attack": 38, "pass": 10, "block": 6, "shot": 11, "catch": 36},
-        {"level": 80, "HP": 5970, "speed": 64, "endurance": 59, "attack": 46, "pass": 12, "block": 7, "shot": 12, "catch": 37},
+        {"level": 70, "HP": 5020, "speed": 64, "endurance": 52, "attack": 38, "pass": 10, "block": 5, "shot": 11, "catch": 36},
+        {"level": 80, "HP": 5970, "speed": 64, "endurance": 59, "attack": 46, "pass": 12, "block": 6, "shot": 12, "catch": 37},
         {"level": 90, "HP": 6960, "speed": 65, "endurance": 67, "attack": 54, "pass": 14, "block": 7, "shot": 13, "catch": 37},
         {"level": 99, "HP": 7940, "speed": 65, "endurance": 74, "attack": 63, "pass": 16, "block": 7, "shot": 14, "catch": 37}
       ]
@@ -1310,12 +1310,12 @@
         {"level": 35, "HP": 2467, "speed": 60, "endurance": 18, "attack": 26, "pass": 17, "block": 23, "shot": 33, "catch": 8},
         {"level": 40, "HP": 2880, "speed": 60, "endurance": 19, "attack": 29, "pass": 20, "block": 23, "shot": 36, "catch": 9},
         {"level": 45, "HP": 3307, "speed": 60, "endurance": 21, "attack": 31, "pass": 22, "block": 23, "shot": 39, "catch": 10},
-        {"level": 50, "HP": 3700, "speed": 60, "endurance": 23, "attack": 33, "pass": 25, "block": 24, "shot": 42, "catch": 11},
-        {"level": 60, "HP": 4660, "speed": 60, "endurance": 27, "attack": 37, "pass": 31, "block": 26, "shot": 47, "catch": 13},
-        {"level": 70, "HP": 5900, "speed": 60, "endurance": 29, "attack": 41, "pass": 36, "block": 29, "shot": 53, "catch": 15},
-        {"level": 80, "HP": 7617, "speed": 60, "endurance": 31, "attack": 44, "pass": 41, "block": 32, "shot": 61, "catch": 17},
-        {"level": 90, "HP": 9189, "speed": 60, "endurance": 33, "attack": 48, "pass": 45, "block": 36, "shot": 68, "catch": 20},
-        {"level": 99, "HP": 9999, "speed": 60, "endurance": 35, "attack": 50, "pass": 49, "block": 40, "shot": 71, "catch": 22}
+        {"level": 50, "HP": 3750, "speed": 60, "endurance": 23, "attack": 33, "pass": 25, "block": 24, "shot": 42, "catch": 11},
+        {"level": 60, "HP": 4680, "speed": 60, "endurance": 27, "attack": 37, "pass": 31, "block": 23, "shot": 46, "catch": 13},
+        {"level": 70, "HP": 5670, "speed": 60, "endurance": 31, "attack": 40, "pass": 37, "block": 23, "shot": 50, "catch": 15},
+        {"level": 80, "HP": 6720, "speed": 60, "endurance": 36, "attack": 42, "pass": 45, "block": 22, "shot": 53, "catch": 17},
+        {"level": 90, "HP": 7830, "speed": 60, "endurance": 41, "attack": 44, "pass": 52, "block": 20, "shot": 55, "catch": 19},
+        {"level": 99, "HP": 8880, "speed": 60, "endurance": 46, "attack": 45, "pass": 60, "block": 19, "shot": 56, "catch": 20}
       ]
     },
     {
@@ -1325,7 +1325,7 @@
       "key_techniques": ["Venom Tackle", "Wither Pass", "Tackle Slip"],
       "stats": [
         {"level": 1, "HP": 115, "speed": 60, "endurance": 8, "attack": 5, "pass": 5, "block": 2, "shot": 4, "catch": 8},
-        {"level": 5, "HP": 250, "speed": 60, "endurance": 8, "attack": 6, "pass": 5, "block": 2, "shot": 5, "catch": 10},
+        {"level": 5, "HP": 250, "speed": 60, "endurance": 8, "attack": 6, "pass": 5, "block": 2, "shot": 4, "catch": 10},
         {"level": 10, "HP": 445, "speed": 60, "endurance": 8, "attack": 7, "pass": 6, "block": 2, "shot": 5, "catch": 12},
         {"level": 15, "HP": 670, "speed": 60, "endurance": 8, "attack": 8, "pass": 6, "block": 2, "shot": 5, "catch": 15},
         {"level": 20, "HP": 925, "speed": 61, "endurance": 8, "attack": 9, "pass": 7, "block": 3, "shot": 6, "catch": 17},
@@ -1335,11 +1335,11 @@
         {"level": 40, "HP": 2245, "speed": 62, "endurance": 9, "attack": 14, "pass": 11, "block": 5, "shot": 8, "catch": 26},
         {"level": 45, "HP": 2650, "speed": 62, "endurance": 10, "attack": 15, "pass": 12, "block": 6, "shot": 8, "catch": 28},
         {"level": 50, "HP": 3085, "speed": 63, "endurance": 11, "attack": 16, "pass": 14, "block": 7, "shot": 9, "catch": 30},
-        {"level": 60, "HP": 4045, "speed": 63, "endurance": 12, "attack": 18, "pass": 18, "block": 10, "shot": 10, "catch": 34},
-        {"level": 70, "HP": 5125, "speed": 64, "endurance": 15, "attack": 21, "pass": 22, "block": 12, "shot": 12, "catch": 38},
-        {"level": 80, "HP": 6325, "speed": 64, "endurance": 17, "attack": 23, "pass": 27, "block": 15, "shot": 14, "catch": 42},
-        {"level": 90, "HP": 7645, "speed": 65, "endurance": 19, "attack": 25, "pass": 32, "block": 17, "shot": 15, "catch": 45},
-        {"level": 99, "HP": 8935, "speed": 65, "endurance": 19, "attack": 27, "pass": 38, "block": 18, "shot": 13, "catch": 48}
+        {"level": 60, "HP": 4045, "speed": 63, "endurance": 12, "attack": 18, "pass": 18, "block": 8, "shot": 10, "catch": 34},
+        {"level": 70, "HP": 5125, "speed": 64, "endurance": 13, "attack": 21, "pass": 22, "block": 10, "shot": 11, "catch": 38},
+        {"level": 80, "HP": 6325, "speed": 64, "endurance": 15, "attack": 23, "pass": 27, "block": 12, "shot": 12, "catch": 42},
+        {"level": 90, "HP": 7645, "speed": 65, "endurance": 17, "attack": 25, "pass": 32, "block": 14, "shot": 13, "catch": 45},
+        {"level": 99, "HP": 8935, "speed": 65, "endurance": 19, "attack": 27, "pass": 38, "block": 16, "shot": 13, "catch": 48}
       ]
     },
     {
@@ -1359,9 +1359,9 @@
         {"level": 45, "HP": 2859, "speed": 59, "endurance": 19, "attack": 18, "pass": 35, "block": 22, "shot": 42, "catch": 6},
         {"level": 50, "HP": 3347, "speed": 59, "endurance": 20, "attack": 21, "pass": 40, "block": 24, "shot": 47, "catch": 7},
         {"level": 60, "HP": 4429, "speed": 59, "endurance": 22, "attack": 27, "pass": 50, "block": 30, "shot": 55, "catch": 9},
-        {"level": 70, "HP": 6000, "speed": 59, "endurance": 25, "attack": 34, "pass": 62, "block": 36, "shot": 74, "catch": 11},
-        {"level": 80, "HP": 7529, "speed": 59, "endurance": 27, "attack": 42, "pass": 75, "block": 44, "shot": 83, "catch": 13},
-        {"level": 90, "HP": 8529, "speed": 59, "endurance": 26, "attack": 51, "pass": 89, "block": 52, "shot": 92, "catch": 18},
+        {"level": 70, "HP": 6000, "speed": 59, "endurance": 24, "attack": 34, "pass": 62, "block": 36, "shot": 64, "catch": 11},
+        {"level": 80, "HP": 7529, "speed": 59, "endurance": 25, "attack": 42, "pass": 75, "block": 44, "shot": 74, "catch": 14},
+        {"level": 90, "HP": 8529, "speed": 59, "endurance": 26, "attack": 51, "pass": 89, "block": 52, "shot": 83, "catch": 16},
         {"level": 99, "HP": 9999, "speed": 59, "endurance": 27, "attack": 60, "pass": 99, "block": 61, "shot": 92, "catch": 19}
       ]
     },
@@ -1373,19 +1373,19 @@
       "stats": [
         {"level": 5, "HP": 242, "speed": 60, "endurance": 9, "attack": 5, "pass": 12, "block": 5, "shot": 5, "catch": 1},
         {"level": 10, "HP": 446, "speed": 60, "endurance": 12, "attack": 5, "pass": 15, "block": 6, "shot": 7, "catch": 1},
-        {"level": 15, "HP": 684, "speed": 60, "endurance": 14, "attack": 5, "pass": 17, "block": 8, "shot": 8, "catch": 2},
-        {"level": 20, "HP": 959, "speed": 60, "endurance": 17, "attack": 6, "pass": 20, "block": 10, "shot": 10, "catch": 3},
-        {"level": 25, "HP": 1269, "speed": 60, "endurance": 20, "attack": 7, "pass": 22, "block": 12, "shot": 12, "catch": 4},
-        {"level": 30, "HP": 1614, "speed": 60, "endurance": 22, "attack": 8, "pass": 25, "block": 14, "shot": 14, "catch": 6},
-        {"level": 35, "HP": 1995, "speed": 60, "endurance": 25, "attack": 9, "pass": 27, "block": 17, "shot": 17, "catch": 7},
-        {"level": 40, "HP": 2412, "speed": 60, "endurance": 28, "attack": 10, "pass": 30, "block": 20, "shot": 20, "catch": 9},
-        {"level": 45, "HP": 2864, "speed": 60, "endurance": 31, "attack": 11, "pass": 32, "block": 23, "shot": 23, "catch": 10},
-        {"level": 50, "HP": 3352, "speed": 60, "endurance": 34, "attack": 12, "pass": 35, "block": 26, "shot": 26, "catch": 11},
-        {"level": 60, "HP": 4434, "speed": 60, "endurance": 40, "attack": 13, "pass": 38, "block": 30, "shot": 30, "catch": 13},
-        {"level": 70, "HP": 5658, "speed": 60, "endurance": 46, "attack": 15, "pass": 41, "block": 34, "shot": 35, "catch": 14},
-        {"level": 80, "HP": 7025, "speed": 60, "endurance": 53, "attack": 17, "pass": 44, "block": 39, "shot": 39, "catch": 15},
-        {"level": 90, "HP": 8534, "speed": 60, "endurance": 60, "attack": 19, "pass": 47, "block": 44, "shot": 42, "catch": 16},
-        {"level": 99, "HP": 9999, "speed": 60, "endurance": 66, "attack": 20, "pass": 49, "block": 48, "shot": 48, "catch": 20}
+        {"level": 15, "HP": 684, "speed": 60, "endurance": 14, "attack": 5, "pass": 17, "block": 8, "shot": 8, "catch": 1},
+        {"level": 20, "HP": 959, "speed": 60, "endurance": 17, "attack": 6, "pass": 20, "block": 10, "shot": 10, "catch": 1},
+        {"level": 25, "HP": 1269, "speed": 60, "endurance": 20, "attack": 7, "pass": 22, "block": 12, "shot": 11, "catch": 2},
+        {"level": 30, "HP": 1614, "speed": 60, "endurance": 22, "attack": 8, "pass": 25, "block": 14, "shot": 13, "catch": 2},
+        {"level": 35, "HP": 1995, "speed": 60, "endurance": 25, "attack": 9, "pass": 27, "block": 17, "shot": 14, "catch": 2},
+        {"level": 40, "HP": 2412, "speed": 60, "endurance": 28, "attack": 11, "pass": 30, "block": 20, "shot": 16, "catch": 3},
+        {"level": 45, "HP": 2864, "speed": 60, "endurance": 31, "attack": 13, "pass": 32, "block": 23, "shot": 17, "catch": 3},
+        {"level": 50, "HP": 3352, "speed": 60, "endurance": 34, "attack": 15, "pass": 35, "block": 26, "shot": 19, "catch": 4},
+        {"level": 60, "HP": 4434, "speed": 60, "endurance": 40, "attack": 19, "pass": 40, "block": 34, "shot": 22, "catch": 5},
+        {"level": 70, "HP": 5658, "speed": 60, "endurance": 46, "attack": 24, "pass": 45, "block": 42, "shot": 25, "catch": 7},
+        {"level": 80, "HP": 7025, "speed": 60, "endurance": 53, "attack": 30, "pass": 50, "block": 52, "shot": 28, "catch": 9},
+        {"level": 90, "HP": 8534, "speed": 60, "endurance": 60, "attack": 37, "pass": 55, "block": 62, "shot": 31, "catch": 10},
+        {"level": 99, "HP": 9999, "speed": 60, "endurance": 66, "attack": 44, "pass": 59, "block": 72, "shot": 33, "catch": 12}
       ]
     },
     {

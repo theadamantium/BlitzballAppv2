@@ -1,10 +1,11 @@
 services:
   postgres:
     image: postgres:16
+    env_file: .env
     environment:
-      POSTGRES_DB: blitzball
-      POSTGRES_USER: blitzball
-      POSTGRES_PASSWORD: REDACTED_FOR_SECURITY
+      POSTGRES_DB: ${POSTGRES_DB:-blitzball}
+      POSTGRES_USER: ${POSTGRES_USER:-blitzball}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
     ports:
       - "5432:5432"
     volumes:
@@ -13,8 +14,9 @@ services:
   backend:
     build:
       context: ./backend
+    env_file: .env
     environment:
-      DATABASE_URL: "postgresql+psycopg://blitzball:REDACTED_FOR_SECURITY@postgres:5432/blitzball"
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://blitzball:password@postgres:5432/blitzball}
     ports:
       - "8000:8000"
     depends_on:

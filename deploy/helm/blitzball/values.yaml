@@ -6,7 +6,7 @@ backend:
   servicePort: 8000
   env:
     APP_ENV: prod
-    DATABASE_URL: postgresql+psycopg://blitzball:REDACTED_FOR_SECURITY@blitzball-postgres-postgresql.blitzball.svc.cluster.local:5432/blitzball
+    DATABASE_URL: "postgresql+psycopg://blitzball:password@blitzball-postgres-postgresql.blitzball.svc.cluster.local:5432/blitzball"
     OTEL_EXPORTER_OTLP_ENDPOINT: http://otel-collector-opentelemetry-collector.observability.svc.cluster.local:4318
 
 frontend:

@@ -22,7 +22,10 @@ spec:
         - name: APP_ENV
           value: "{{ .Values.backend.env.APP_ENV }}"
         - name: DATABASE_URL
-          value: "{{ .Values.backend.env.DATABASE_URL }}"
+          valueFrom:
+            secretKeyRef:
+              name: blitzball-backend-secrets
+              key: DATABASE_URL
         - name: OTEL_EXPORTER_OTLP_ENDPOINT
           value: "{{ .Values.backend.env.OTEL_EXPORTER_OTLP_ENDPOINT }}"
         readinessProbe:

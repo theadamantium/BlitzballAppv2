@@ -25,5 +25,5 @@ def percentile_rank(value: float, population: list[float]) -> float:
 def grade_from_percentile(percentile: float) -> str:
     """Returns a simple color-code grade for the UI."""
     if percentile >= 85: return "green"  # Top 15%
-    if percentile >= 25: return "yellow" # Mid-range
+    if percentile >= 25: return "blue" # Mid-range
     return "red"                         # Bottom 25%

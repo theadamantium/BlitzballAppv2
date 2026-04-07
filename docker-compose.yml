@@ -4,7 +4,7 @@ services:
     environment:
       POSTGRES_DB: blitzball
       POSTGRES_USER: blitzball
-      POSTGRES_PASSWORD: blitzball_dev_password
+      POSTGRES_PASSWORD: REDACTED_FOR_SECURITY
     ports:
       - "5432:5432"
     volumes:
@@ -14,7 +14,7 @@ services:
     build:
       context: ./backend
     environment:
-      DATABASE_URL: "postgresql+psycopg://blitzball:blitzball_dev_password@postgres:5432/blitzball"
+      DATABASE_URL: "postgresql+psycopg://blitzball:REDACTED_FOR_SECURITY@postgres:5432/blitzball"
     ports:
       - "8000:8000"
     depends_on:

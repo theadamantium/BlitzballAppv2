@@ -21,10 +21,14 @@ config:
   exporters:
     debug:
       verbosity: detailed
+    otlp/tempo:
+      endpoint: http://tempo.observability.svc.cluster.local:4317
+      tls:
+        insecure: true
   
   service:
     pipelines:
       traces:
         receivers: [otlp]
         processors: [batch]
-        exporters: [debug]
+        exporters: [debug, otlp/tempo]

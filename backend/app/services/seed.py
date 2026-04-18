@@ -4,8 +4,24 @@ from sqlalchemy import select
 from app.db import SessionLocal
 from app.models import Player, PlayerStatSnapshot, Technique, PlayerKeyTechnique
 
-BASE_DIR = Path(__file__).resolve().parents[3]
-DATA_DIR = BASE_DIR / "data"
+# Look for data in /app/data (Docker) or ../../../data (Local)
+possible_paths = [
+    Path("/app/data"),
+    Path(__file__).resolve().parents[3] / "data",
+    Path(__file__).resolve().parents[2] / "data"
+]
+
+DATA_DIR = None
+for p in possible_paths:
+    if p.exists():
+        DATA_DIR = p
+        break
+
+if not DATA_DIR:
+    print(f"DEBUG: Searched in {possible_paths}")
+    raise FileNotFoundError("Could not find data directory in any standard location.")
+
+print(f"INFO: Seeding from {DATA_DIR}")
 
 def load_json(path: Path):
     with open(path, "r", encoding="utf-8") as f:

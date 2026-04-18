@@ -5,7 +5,11 @@ from app.api.techniques import router as techniques_router
 from app.db import engine
 from app.telemetry import setup_telemetry
 
-app = FastAPI(title="Blitzball API")
+app = FastAPI(
+    title="Blitzball API",
+    docs_url="/api/docs",
+    openapi_url="/api/openapi.json"
+)
 
 # Add the CORS middleware to allow your frontend to talk to the backend
 app.add_middleware(

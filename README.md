@@ -59,6 +59,6 @@ helm upgrade --install blitzball ./deploy/helm/blitzball \
 ---
 
 ## Security & Best Practices
-- **Secret Management:** Sensitive data is never hardcoded. Local development uses `.env` files (ignored by git), and Kubernetes uses Opaque Secrets.
+- **Secret Management:** Sensitive data is never hardcoded. Local development uses `.env` files (ignored by git), and Kubernetes uses Opaque Secrets managed externally to the Helm release for maximum security.
 - **Database Migrations:** Managed by Alembic. Run `alembic upgrade head` to apply schema changes.
 - **Observability:** Centralized OTel Collector routes all telemetry to the LGTM stack.

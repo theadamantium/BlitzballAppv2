@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+# blitz — start/stop the Blitzball stack on single-node k3s.
+# Edit these to match `kubectl get ns`:
+APP_NS="blitzball"
+OBS_NS="observability"
+
+set -euo pipefail
+
+usage() {
+    cat <<USAGE
+blitz — control the Blitzball stack
+
+    blitz status            Show nodes, pods, and memory
+    blitz up [--obs]        Scale app deployments up (add --obs to also bring up observability)
+    blitz down [--obs]      Scale app deployments to zero (add --obs to also stop observability)
+    blitz start-cluster     systemctl start k3s (control plane up; workloads resume)
+    blitz stop-cluster      Stop ALL containers and the cluster (frees the most RAM)`
+USAGE
+}
+
+scale_ns() { # $1 = namespace, $2 = replica count
+    local ns="$1" n="$2"
+    # Save/restore is out of scope; we simply scale every deployment in the namespace.
+    kubectl -n "$ns" scale deploy --all --replicas="$n"
+}
+
+case "${1:-}" in
+    status)
+        kubectl get nodes
+        echo; kubectl get pods -A
+        echo; free -h
+        ;;
+    up)
+        scale_ns "$APP_NS" 1
+        [ "${2:-}" = "--obs" ] && scale_ns "$OBS_NS" 1 || true
+        echo "Waiting for app pods to become Ready..."
+        kubectl -n "$APP_NS" wait --for=condition=available deploy --all --timeout=120s || true
+        ;;
+    down)
+        scale_ns "$APP_NS" 0
+        [ "${2:-}" = "--obs" ] && scale_ns "$OBS_NS" 0 || true
+        ;;
+    start-cluster)
+        sudo systemctl start k3s
+        ;;
+    stop-cluster)
+        sudo systemctl stop k3s || true
+        sudo /usr/local/bin/k3s-killall.sh
+        ;;
+    *)
+    usage; exit 1 ;;
+esac
